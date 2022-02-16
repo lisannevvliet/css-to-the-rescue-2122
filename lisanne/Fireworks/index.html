@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: black;
+            }
+
+            span {
+                height: 10px;
+                width: 10px;
+                background-color: white;
+                border-radius: 50%;
+                display: inline-block;
+                position: absolute;
+                left: 50%;
+                top: 100%;
+                animation: firework 1s linear infinite;
+                animation-timing-function: cubic-bezier(0.250, 0.460, 0.450, 0.940); /* easeOutQuad, zie https://matthewlein.com/tools/ceaser. */
+            }
+
+            @keyframes firework {
+                from {
+                    background-color: black;
+                    left: 50%;
+                    top: 100%;
+                }
+                to {
+                    background-color:white;
+                    left: 50%;
+                    top: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <span />
+    </body>
+</html>
