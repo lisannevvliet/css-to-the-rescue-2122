@@ -17,12 +17,12 @@
                 left: 50%;
                 top: 100%;
                 /* easeOutQuad, zie https://matthewlein.com/tools/ceaser. */
-                animation: firework 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite;
+                animation: firework 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1;
             }
 
             @keyframes firework {
                 from { background-color: black; left: 50%; top: 100%; }
-                to { background-color:white; left: 50%; top: 20%; }
+                to { background-color: white; left: 50%; top: 20%; }
             }
             
             /* De explosie. */
