@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+body > span:nth-child(1) {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: fixed;
+    left: calc(50% - 0.5em);
+    top: 100%;
+    /* https://matthewlein.com/tools/ceaser */
+    animation: rocket 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1;
+}
+
+@keyframes rocket {
+    from { background-color: black; top: 100%; }
+    to { background-color: white; top: 30%; }
+}
