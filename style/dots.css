@@ -1,0 +1,72 @@
+span span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    position: fixed;
+    left: calc(50% - 0.5em);
+    top: 30%;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+}
+
+span span:nth-child(1) { animation-name: explosion-1; }
+span span:nth-child(2) { animation-name: explosion-2; }
+span span:nth-child(3) { animation-name: explosion-3; }
+span span:nth-child(4) { animation-name: explosion-4; }
+
+@keyframes explosion-1 {
+    from { background: white; }
+    to { background: white; transform: translate(100px, -100px); }
+}
+
+@keyframes explosion-2 {
+    from { background: white; }
+    to { background: white; transform: translate(100px, 100px); }
+}
+
+@keyframes explosion-3 {
+    from { background: white; }
+    to { background: white; transform: translate(-100px, 100px); }
+}
+
+@keyframes explosion-4 {
+    from { background: white; }
+    to { background: white; transform: translate(-100px, -100px); }
+}
+
+span span span {
+    position: absolute;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+}
+
+span span:nth-child(1) span { left: 100px; top: -100px; }
+span span:nth-child(2) span { left: 100px; top: 100px; }
+span span:nth-child(3) span { left: -100px; top: 100px; }
+span span:nth-child(4) span { left: -100px; top: -100px; }
+
+span span span:nth-child(1) { animation-name: subexplosion-1; }
+span span span:nth-child(2) { animation-name: subexplosion-2; }
+span span span:nth-child(3) { animation-name: subexplosion-3; }
+span span span:nth-child(4) { animation-name: subexplosion-4; }
+
+@keyframes subexplosion-1 {
+    from { background: white; }
+    to { background: white; transform: translate(50px, -50px); }
+}
+
+@keyframes subexplosion-2 {
+    from { background: white; }
+    to { background: white; transform: translate(50px, 50px); }
+}
+
+@keyframes subexplosion-3 {
+    from { background: white; }
+    to { background: white; transform: translate(-50px, 50px); }
+}
+
+@keyframes subexplosion-4 {
+    from { background: white; }
+    to { background: white; transform: translate(-50px, -50px); }
+}
