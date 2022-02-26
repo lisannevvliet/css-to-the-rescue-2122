@@ -1,0 +1,32 @@
+/* https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+
+label {
+    cursor: pointer;
+    position: fixed;
+    left: calc(50% - 0.5em);
+    bottom: 150px;
+}
+
+label input {
+    display: none;
+}
+
+label span {
+    position: absolute;
+    height: 150px;
+    width: 100px;
+}
+
+label span:after {
+    display: none;
+}
+
+label input:checked ~ span:after {
+    display: block;
+    content: '\2665';
+    color: red;
+    font-size: 2.5em;
+    position: absolute;
+    left: calc(50% - 0.5em);
+    top: -50px;
+}
