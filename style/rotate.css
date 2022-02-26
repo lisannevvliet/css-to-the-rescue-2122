@@ -1,0 +1,10 @@
+section {
+  position: fixed;
+  left: calc(50% - 0.5em);
+  top: 30%;
+  animation: rotate 1.5s ease-out 1s;
+}
+
+@keyframes rotate {
+  to { transform: rotate(360deg); }
+}
