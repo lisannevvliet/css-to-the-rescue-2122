@@ -3,7 +3,7 @@
 label {
     cursor: pointer;
     position: fixed;
-    left: calc(50% - 0.5em);
+    left: calc(50% - 0.5em - 50px);
     bottom: 150px;
 }
 
@@ -27,6 +27,6 @@ label input:checked ~ span:after {
     color: red;
     font-size: 2.5em;
     position: absolute;
-    left: calc(50% - 0.5em);
+    left: calc(50% - 0.5em + 5px);
     top: -50px;
 }
