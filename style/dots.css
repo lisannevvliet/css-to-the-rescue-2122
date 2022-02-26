@@ -8,30 +8,31 @@ span span {
     top: 30%;
     animation-duration: 0.5s;
     animation-delay: 1s;
+    animation-iteration-count: 1;
 }
 
-span span:nth-child(1) { animation-name: explosion-1; }
-span span:nth-child(2) { animation-name: explosion-2; }
-span span:nth-child(3) { animation-name: explosion-3; }
-span span:nth-child(4) { animation-name: explosion-4; }
+span span:nth-child(1) { animation-name: big-explosion-1; }
+span span:nth-child(2) { animation-name: big-explosion-2; }
+span span:nth-child(3) { animation-name: big-explosion-3; }
+span span:nth-child(4) { animation-name: big-explosion-5; }
 
 /* http://randomcolour.com */
-@keyframes explosion-1 {
+@keyframes big-explosion-1 {
     from { background: #47d614; }
     to { background: #f6d661; transform: translate(100px, -100px); }
 }
 
-@keyframes explosion-2 {
+@keyframes big-explosion-2 {
     from { background: #687c4b; }
     to { background: #93053b; transform: translate(100px, 100px); }
 }
 
-@keyframes explosion-3 {
+@keyframes big-explosion-3 {
     from { background: #ef76b4; }
     to { background: #5c82a1; transform: translate(-100px, 100px); }
 }
 
-@keyframes explosion-4 {
+@keyframes big-explosion-5 {
     from { background: #b996ed; }
     to { background: #5fb94e; transform: translate(-100px, -100px); }
 }
@@ -39,7 +40,6 @@ span span:nth-child(4) { animation-name: explosion-4; }
 span span span {
     position: absolute;
     animation-delay: 1.5s;
-    animation-iteration-count: 1;
 }
 
 span span:nth-child(1) span { left: 100px; top: -100px; }
@@ -47,27 +47,61 @@ span span:nth-child(2) span { left: 100px; top: 100px; }
 span span:nth-child(3) span { left: -100px; top: 100px; }
 span span:nth-child(4) span { left: -100px; top: -100px; }
 
-span span span:nth-child(1) { animation-name: subexplosion-1; }
-span span span:nth-child(2) { animation-name: subexplosion-2; }
-span span span:nth-child(3) { animation-name: subexplosion-3; }
-span span span:nth-child(4) { animation-name: subexplosion-4; }
+span span span:nth-child(1) { animation-name: smaller-explosion-1; }
+span span span:nth-child(2) { animation-name: smaller-explosion-2; }
+span span span:nth-child(3) { animation-name: smaller-explosion-3; }
+span span span:nth-child(4) { animation-name: smaller-explosion-4; }
 
-@keyframes subexplosion-1 {
+@keyframes smaller-explosion-1 {
     from { background: #55abda; }
     to { background: #ec2d67; transform: translate(50px, -50px); }
 }
 
-@keyframes subexplosion-2 {
+@keyframes smaller-explosion-2 {
     from { background: #a24f00; }
     to { background: #29dd0e; transform: translate(50px, 50px); }
 }
 
-@keyframes subexplosion-3 {
+@keyframes smaller-explosion-3 {
     from { background: #8289f4; }
     to { background: #27cfe4; transform: translate(-50px, 50px); }
 }
 
-@keyframes subexplosion-4 {
+@keyframes smaller-explosion-4 {
     from { background: #41d110; }
     to { background: #2483bd; transform: translate(-50px, -50px); }
+}
+
+span span span span {
+    animation-delay: 2s;
+}
+
+span span span:nth-child(1) span { left: 50px; top: -50px; }
+span span span:nth-child(2) span { left: 50px; top: 50px; }
+span span span:nth-child(3) span { left: -50px; top: 50px; }
+span span span:nth-child(4) span { left: -50px; top: -50px; }
+
+span span span span:nth-child(1) { animation-name: smallest-explosion-1; }
+span span span span:nth-child(2) { animation-name: smallest-explosion-2; }
+span span span span:nth-child(3) { animation-name: smallest-explosion-3; }
+span span span span:nth-child(4) { animation-name: smallest-explosion-4; }
+
+@keyframes smallest-explosion-1 {
+    from { background: #f83e9f; }
+    to { background: #212ac1; transform: translate(25px, -25px); }
+}
+
+@keyframes smallest-explosion-2 {
+    from { background: #50d0b5; }
+    to { background: #ec8cfb; transform: translate(25px, 25px); }
+}
+
+@keyframes smallest-explosion-3 {
+    from { background: #851abf; }
+    to { background: #fbbc4a; transform: translate(-25px, 25px); }
+}
+
+@keyframes smallest-explosion-4 {
+    from { background: #089fc6; }
+    to { background: #d43d05; transform: translate(-25px, -25px); }
 }
