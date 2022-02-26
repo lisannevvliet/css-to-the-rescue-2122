@@ -21,7 +21,7 @@ div div:nth-child(2) div:nth-child(1) {
     background-color: grey;
     position: fixed;
     left: calc(50% - 0.5em);
-    bottom: 100px;
+    bottom: 90px;
 }
 
 div:nth-child(2) div:nth-child(2) {
@@ -41,7 +41,7 @@ div:nth-child(2) div:nth-child(3) {
     background: grey;
     position: fixed;
     left: calc(50% - 0.5em);
-    bottom: 95px;
+    bottom: 85px;
 }
 
 /* Upper bodies */
@@ -52,7 +52,7 @@ div div:nth-child(2) div:nth-child(4) {
     background: grey;
     position: fixed;
     left: calc(50% - 0.5em);
-    bottom: 50px;
+    bottom: 40px;
 }
 
 div:nth-child(2) div:nth-child(5) {
@@ -68,7 +68,7 @@ div:nth-child(2) div:nth-child(5) {
 /* Lower bodies */
 div div:nth-child(2) div:nth-child(6) {
     width: 50px;
-    height: 75px;
+    height: 65px;
     background: grey;
     position: fixed;
     left: calc(50% - 0.5em);
@@ -92,7 +92,7 @@ div:nth-child(2) div:nth-child(8) {
     background: grey;
     position: fixed;
     left: calc(50% - 0.5em - 60px);
-    bottom: 25px;
+    bottom: 15px;
 }
 
 div:nth-child(2) div:nth-child(9) {
@@ -112,7 +112,7 @@ div:nth-child(2) div:nth-child(10) {
     background: black;
     position: fixed;
     left: calc(50% - 0.5em - 50px);
-    bottom: 25px;
+    bottom: 15px;
 }
 
 div:nth-child(2) div:nth-child(11) {
