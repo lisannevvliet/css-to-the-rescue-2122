@@ -28,5 +28,5 @@ label input:checked ~ span:after {
     font-size: 2.5em;
     position: absolute;
     left: calc(50% - 0.5em + 5px);
-    top: -50px;
+    top: -75px;
 }
