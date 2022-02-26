@@ -34,8 +34,18 @@ div:nth-child(2) div:nth-child(2) {
     bottom: 100px;
 }
 
+/* Hair */
+div:nth-child(2) div:nth-child(3) {
+    width: 50px;
+    height: 30px;
+    background: grey;
+    position: fixed;
+    left: calc(50% - 0.5em + 25px);
+    bottom: 95px;
+}
+
 /* Upper bodies */
-div div:nth-child(2) div:nth-child(3) {
+div div:nth-child(2) div:nth-child(4) {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -45,7 +55,7 @@ div div:nth-child(2) div:nth-child(3) {
     bottom: 50px;
 }
 
-div:nth-child(2) div:nth-child(4) {
+div:nth-child(2) div:nth-child(5) {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -56,7 +66,7 @@ div:nth-child(2) div:nth-child(4) {
 }
 
 /* Lower bodies */
-div div:nth-child(2) div:nth-child(5) {
+div div:nth-child(2) div:nth-child(6) {
     width: 50px;
     height: 75px;
     background: grey;
@@ -65,7 +75,7 @@ div div:nth-child(2) div:nth-child(5) {
     bottom: 0;
 }
 
-div:nth-child(2) div:nth-child(6) {
+div:nth-child(2) div:nth-child(7) {
     width: 50px;
     height: 75px;
     background: grey;
@@ -74,13 +84,23 @@ div:nth-child(2) div:nth-child(6) {
     bottom: 0;
 }
 
-/* Hand on shoulder */
-div:nth-child(2) div:nth-child(7) {
+/* Hands on waists */
+div:nth-child(2) div:nth-child(8) {
     width: 25px;
     height: 25px;
     border-radius: 50%;
     background: grey;
     position: fixed;
     left: calc(50% - 0.5em - 35px);
-    bottom: 50px;
+    bottom: 25px;
+}
+
+div:nth-child(2) div:nth-child(9) {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: grey;
+    position: fixed;
+    left: calc(50% - 0.5em + 60px);
+    bottom: 25px;
 }
