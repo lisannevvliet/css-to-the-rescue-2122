@@ -32,6 +32,7 @@ input:checked ~ label span:after {
     animation: pulse 1.5s infinite;
 }
 
+/* https://codepen.io/shooft/pen/YzENpqY */
 @keyframes pulse {
     0%, 30% { transform:scale(1); }
     40% { transform:scale(1.2); }
