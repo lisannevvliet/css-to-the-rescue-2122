@@ -8,3 +8,9 @@ section {
 @keyframes rotate {
   to { transform: rotate(360deg); }
 }
+
+@media(prefers-reduced-motion) {
+  section { 
+    animation: none;
+  }
+}

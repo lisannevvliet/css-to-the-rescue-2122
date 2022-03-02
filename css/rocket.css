@@ -21,6 +21,12 @@ body > span {
     }
 }
 
+@media (prefers-reduced-motion) {
+    body > span {
+        animation: none;
+    }
+  }
+
 @keyframes rocket-light {
     from { background-color: white; top: 100%; }
     to { background-color: black; top: 30%; }
