@@ -2,6 +2,12 @@ body {
     background-color: black;
 }
 
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+    }
+}
+
 /* Moon */
 body > div > div:nth-child(1) {
     position: fixed;
@@ -9,8 +15,15 @@ body > div > div:nth-child(1) {
     left: 10%;
     height: 50px;
     width: 50px;
-    box-shadow: -7.5px 7.5px 0 2.5px grey;
+    box-shadow: -7.5px 7.5px 0 2.5px yellow;
     border-radius: 50%;
+}
+
+@media (prefers-color-scheme: light) {
+    body > div > div:nth-child(1) {
+        background: yellow;
+        box-shadow: none;
+    }
 }
 
 /* Heads */
@@ -122,4 +135,14 @@ div:nth-child(2) div:nth-child(11) {
     position: fixed;
     left: calc(50% - 0.5em + 20px);
     bottom: 25px;
+}
+
+@media (prefers-color-scheme: light) {
+    div:nth-child(2) div:nth-child(10) {
+        background-color: white;
+    }
+
+    div:nth-child(2) div:nth-child(11) {
+        background-color: white;
+    }
 }

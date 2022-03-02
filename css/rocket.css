@@ -7,10 +7,21 @@ body > span {
     top: 100%;
     /* https://matthewlein.com/tools/ceaser */
     z-index: -1;
-    animation: rocket 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1;
+    animation: rocket-dark 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1;
 }
 
-@keyframes rocket {
+@keyframes rocket-dark {
     from { background-color: black; top: 100%; }
     to { background-color: white; top: 30%; }
+}
+
+@media (prefers-color-scheme: light) {
+    body > span {
+        animation: rocket-light 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1;
+    }
+}
+
+@keyframes rocket-light {
+    from { background-color: white; top: 100%; }
+    to { background-color: black; top: 30%; }
 }
