@@ -10,14 +10,27 @@ body > span {
     animation: rocket-dark 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1;
 }
 
+input:checked ~ body > span {
+    animation-name: red-rocket-dark;
+}
+
 @keyframes rocket-dark {
     from { background: black; top: 100%; }
     to { background: white; top: 30%; }
 }
 
+@keyframes red-rocket-dark {
+    from { background: black; top: 100%; }
+    to { background: red; top: 30%; }
+}
+
 @media (prefers-color-scheme: light) {
     body > span {
         animation: rocket-light 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1;
+    }
+
+    input:checked ~ body > span {
+        animation-name: red-rocket-light;
     }
 }
 
@@ -30,4 +43,9 @@ body > span {
 @keyframes rocket-light {
     from { background: white; top: 100%; }
     to { background: black; top: 30%; }
+}
+
+@keyframes red-rocket-light {
+    from { background: white; top: 100%; }
+    to { background: red; top: 30%; }
 }
