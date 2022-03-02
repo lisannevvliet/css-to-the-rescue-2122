@@ -158,6 +158,11 @@ span span span:nth-child(4) span { left: -50px; top: -50px; }
     span span span span:nth-child(2) { background: #ec8cfb; transform: translate(25px, 25px); }
     span span span span:nth-child(3) { background: #fbbc4a; transform: translate(-25px, 25px); }
     span span span span:nth-child(4) { background: #d43d05; transform: translate(-25px, -25px); }
+
+    input:checked ~ span span span span:nth-child(1) { background: red; transform: translate(25px, -25px); }
+    input:checked ~ span span span span:nth-child(2) { background: red; transform: translate(25px, 25px); }
+    input:checked ~ span span span span:nth-child(3) { background: red; transform: translate(-25px, 25px); }
+    input:checked ~ span span span span:nth-child(4) { background: red; transform: translate(-25px, -25px); }
 }
 
 @keyframes smallest-explosion-1 {

@@ -17,6 +17,7 @@ body > section > section:nth-child(1) {
     width: 50px;
     box-shadow: -7.5px 7.5px 0 2.5px yellow;
     border-radius: 50%;
+    z-index: -1;
 }
 
 @media (prefers-color-scheme: light) {
