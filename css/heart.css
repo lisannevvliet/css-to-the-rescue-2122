@@ -7,7 +7,7 @@ label {
     bottom: 150px;
 }
 
-label input {
+input {
     display: none;
 }
 
@@ -21,7 +21,7 @@ label span:after {
     display: none;
 }
 
-label input:checked ~ span:after {
+input:checked ~ label span:after {
     display: block;
     content: '\2665';
     color: red;
@@ -36,4 +36,8 @@ label input:checked ~ span:after {
     0% { transform: scale(1); }
     50% { transform: scale(1.3); }
     100% { transform: scale(1); }
+}
+
+input:checked ~ span {
+    background: red;
 }

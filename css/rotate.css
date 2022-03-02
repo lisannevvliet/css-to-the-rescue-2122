@@ -1,4 +1,4 @@
-section {
+span section {
   position: fixed;
   left: calc(50% - 0.5em);
   top: 30%;
@@ -10,7 +10,7 @@ section {
 }
 
 @media(prefers-reduced-motion) {
-  section { 
+  span section { 
     animation: none;
   }
 }

@@ -1,15 +1,15 @@
 body {
-    background-color: black;
+    background: black;
 }
 
 @media (prefers-color-scheme: light) {
     body {
-        background-color: white;
+        background: white;
     }
 }
 
 /* Moon */
-body > div > div:nth-child(1) {
+body > section > section:nth-child(1) {
     position: fixed;
     top: 50px;
     left: 10%;
@@ -20,35 +20,35 @@ body > div > div:nth-child(1) {
 }
 
 @media (prefers-color-scheme: light) {
-    body > div > div:nth-child(1) {
+    body > section > section:nth-child(1) {
         background: yellow;
         box-shadow: none;
     }
 }
 
 /* Heads */
-div div:nth-child(2) div:nth-child(1) {
+section section:nth-child(2) section:nth-child(1) {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: grey;
+    background: grey;
     position: fixed;
     left: calc(50% - 0.5em);
     bottom: 90px;
 }
 
-div:nth-child(2) div:nth-child(2) {
+section:nth-child(2) section:nth-child(2) {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: grey;
+    background: grey;
     position: fixed;
     left: calc(50% - 0.5em - 50px);
     bottom: 100px;
 }
 
 /* Hair */
-div:nth-child(2) div:nth-child(3) {
+section:nth-child(2) section:nth-child(3) {
     width: 50px;
     height: 30px;
     background: grey;
@@ -58,7 +58,7 @@ div:nth-child(2) div:nth-child(3) {
 }
 
 /* Upper bodies */
-div div:nth-child(2) div:nth-child(4) {
+section section:nth-child(2) section:nth-child(4) {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -68,7 +68,7 @@ div div:nth-child(2) div:nth-child(4) {
     bottom: 40px;
 }
 
-div:nth-child(2) div:nth-child(5) {
+section:nth-child(2) section:nth-child(5) {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -79,7 +79,7 @@ div:nth-child(2) div:nth-child(5) {
 }
 
 /* Lower bodies */
-div div:nth-child(2) div:nth-child(6) {
+section section:nth-child(2) section:nth-child(6) {
     width: 50px;
     height: 65px;
     background: grey;
@@ -88,7 +88,7 @@ div div:nth-child(2) div:nth-child(6) {
     bottom: 0;
 }
 
-div:nth-child(2) div:nth-child(7) {
+section:nth-child(2) section:nth-child(7) {
     width: 50px;
     height: 75px;
     background: grey;
@@ -98,7 +98,7 @@ div:nth-child(2) div:nth-child(7) {
 }
 
 /* Hands on waists */
-div:nth-child(2) div:nth-child(8) {
+section:nth-child(2) section:nth-child(8) {
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -108,7 +108,7 @@ div:nth-child(2) div:nth-child(8) {
     bottom: 15px;
 }
 
-div:nth-child(2) div:nth-child(9) {
+section:nth-child(2) section:nth-child(9) {
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -119,7 +119,7 @@ div:nth-child(2) div:nth-child(9) {
 }
 
 /* Arms on waist */
-div:nth-child(2) div:nth-child(10) {
+section:nth-child(2) section:nth-child(10) {
     width: 30px;
     height: 1px;
     background: black;
@@ -128,7 +128,7 @@ div:nth-child(2) div:nth-child(10) {
     bottom: 15px;
 }
 
-div:nth-child(2) div:nth-child(11) {
+section:nth-child(2) section:nth-child(11) {
     width: 30px;
     height: 1px;
     background: black;
@@ -138,11 +138,11 @@ div:nth-child(2) div:nth-child(11) {
 }
 
 @media (prefers-color-scheme: light) {
-    div:nth-child(2) div:nth-child(10) {
-        background-color: white;
+    section:nth-child(2) section:nth-child(10) {
+        background: white;
     }
 
-    div:nth-child(2) div:nth-child(11) {
-        background-color: white;
+    section:nth-child(2) section:nth-child(11) {
+        background: white;
     }
 }
