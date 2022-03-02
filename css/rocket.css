@@ -1,4 +1,4 @@
-body > span:nth-child(1) {
+body > span {
     height: 10px;
     width: 10px;
     border-radius: 50%;
@@ -6,6 +6,7 @@ body > span:nth-child(1) {
     left: calc(50% - 0.5em);
     top: 100%;
     /* https://matthewlein.com/tools/ceaser */
+    z-index: -1;
     animation: rocket 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1;
 }
 
