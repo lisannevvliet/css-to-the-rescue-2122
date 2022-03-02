@@ -23,7 +23,7 @@ label span:after {
 
 input:checked ~ label span:after {
     display: block;
-    content: '\2665';
+    content: "\2665";
     color: red;
     font-size: 2.5em;
     position: absolute;

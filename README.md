@@ -10,7 +10,7 @@ De opdracht die ik ga doen is "Magische vuurwerkshow". Qua opties valt er niet v
 De eerste CSS-technieken waarmee ik aan de slag ga, zijn de verschillende animaties. Dit doe ik zodat ik meteen een basis heb, waarna ik het vuurwerk verder uit kan werken. Eerst ga ik de vuurpijl animeren, en daarna de explosie.
 
 **Waar liggen je (grootste) uitdagingen?**  
-Mijn (grootste) uitdagingen liggen in de creativiteit, animatie, interactie en restricties (geen ID's en classes). Uiteindelijk wil ik minimaal één creatieve ingeving in de vuurwerkshow verwerken. Met animatie en interactie heb ik hiervoor nog nooit gewerkt, dus dat is nieuw voor mij. Voorheen werkte ik ook altijd met classes, nooit met selectoren.
+Mijn (grootste) uitdagingen liggen in de creativiteit, animatie, interactie en restricties (geen ID"s en classes). Uiteindelijk wil ik minimaal één creatieve ingeving in de vuurwerkshow verwerken. Met animatie en interactie heb ik hiervoor nog nooit gewerkt, dus dat is nieuw voor mij. Voorheen werkte ik ook altijd met classes, nooit met selectoren.
 
 **Neem schets(en) van je ontwerp op.**  
 N.v.t.

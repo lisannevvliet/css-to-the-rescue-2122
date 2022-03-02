@@ -4,7 +4,7 @@ body > span:nth-child(1) {
 
 div::before {
     animation: explosion 2s ease-out 2s 1;
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     right: 0;
