@@ -10,8 +10,8 @@ body > span {
     animation: rocket-dark 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1;
 }
 
-input:checked ~ body > span {
-    animation-name: red-rocket-dark;
+input:checked ~ span {
+    animation: red-rocket-dark 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1;
 }
 
 @keyframes rocket-dark {
@@ -29,8 +29,8 @@ input:checked ~ body > span {
         animation: rocket-light 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1;
     }
 
-    input:checked ~ body > span {
-        animation-name: red-rocket-light;
+    input:checked ~ span {
+        animation: red-rocket-light 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1;
     }
 }
 

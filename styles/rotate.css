@@ -5,7 +5,15 @@ span section {
   animation: rotate 1.5s ease-out 1s;
 }
 
+input:checked ~ span section {
+  animation-name: rotate-checked;
+}
+
 @keyframes rotate {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes rotate-checked {
   to { transform: rotate(360deg); }
 }
 
