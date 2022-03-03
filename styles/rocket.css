@@ -26,7 +26,7 @@ input:checked ~ span {
 
 @keyframes rocket-light {
     from { background: white; top: 100%; }
-    to { background: black; top: 30%; }
+    to { background: #404040; top: 30%; }
 }
 
 @keyframes red-rocket-light {
