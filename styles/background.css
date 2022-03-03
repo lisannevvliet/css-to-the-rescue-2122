@@ -125,27 +125,29 @@ section:nth-child(2) section:nth-child(11) {
     bottom: 25px;
 }
 
+/* Beach */
 section:nth-child(3) section:nth-child(1) {
     height: 50px;
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
-    background: tan;
+    background: #695A46;
     z-index: -1;
 }
 
+/* Sea */
 section:nth-child(3) section:nth-child(2) {
     height: 25px;
     width: 100%;
     position: fixed;
     bottom: 50px;
     left: 0;
-    background: skyblue;
+    background: #446776;
     z-index: -1;
 }
 
-/* https://www.shapedivider.app */
+/* Waves */
 section:nth-child(3) section:nth-child(3) {
     position: absolute;
     bottom: 75px;
@@ -161,7 +163,7 @@ section:nth-child(3) section:nth-child(3) svg {
 }
 
 section:nth-child(3) section:nth-child(3) path {
-    fill: skyblue;
+    fill: #446776;
 }
 
 @media (prefers-color-scheme: light) {
@@ -176,5 +178,13 @@ section:nth-child(3) section:nth-child(3) path {
 
     section section:nth-child(2) section:nth-child(1), section section:nth-child(2) section:nth-child(2), section section:nth-child(2) section:nth-child(3), section section:nth-child(2) section:nth-child(4), section section:nth-child(2) section:nth-child(5), section section:nth-child(2) section:nth-child(6), section section:nth-child(2) section:nth-child(7), section section:nth-child(2) section:nth-child(8), section section:nth-child(2) section:nth-child(9) {
         background: #404040;
+    }
+
+    section:nth-child(3) section:nth-child(1) {
+        background: tan;
+    }
+
+    section:nth-child(3) section:nth-child(3) path {
+        fill: skyblue;
     }
 }
