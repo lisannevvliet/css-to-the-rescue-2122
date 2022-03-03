@@ -11,7 +11,6 @@ span span {
     animation-iteration-count: 1;
 }
 
-/* http://randomcolour.com */
 @keyframes big-explosion-1 {
     from { background: #47d614; }
     to { background: #f6d661; transform: translate(100px, -100px); }
