@@ -165,7 +165,7 @@ section:nth-child(3) section:nth-child(3) path {
 }
 
 @media (prefers-color-scheme: light) {
-    body {
+    body, section:nth-child(2) section:nth-child(10), section:nth-child(2) section:nth-child(11) {
         background: white;
     }
 
@@ -174,47 +174,7 @@ section:nth-child(3) section:nth-child(3) path {
         box-shadow: none;
     }
 
-    section section:nth-child(2) section:nth-child(1) {
+    section section:nth-child(2) section:nth-child(1), section section:nth-child(2) section:nth-child(2), section section:nth-child(2) section:nth-child(3), section section:nth-child(2) section:nth-child(4), section section:nth-child(2) section:nth-child(5), section section:nth-child(2) section:nth-child(6), section section:nth-child(2) section:nth-child(7), section section:nth-child(2) section:nth-child(8), section section:nth-child(2) section:nth-child(9) {
         background: black;
-    }
-
-    section section:nth-child(2) section:nth-child(2) {
-        background: black;
-    }
-
-    section section:nth-child(2) section:nth-child(3) {
-        background: black;
-    }
-
-    section section:nth-child(2) section:nth-child(4) {
-        background: black;
-    }
-
-    section section:nth-child(2) section:nth-child(5) {
-        background: black;
-    }
-
-    section section:nth-child(2) section:nth-child(6) {
-        background: black;
-    }
-
-    section section:nth-child(2) section:nth-child(7) {
-        background: black;
-    }
-
-    section section:nth-child(2) section:nth-child(8) {
-        background: black;
-    }
-
-    section section:nth-child(2) section:nth-child(9) {
-        background: black;
-    }
-
-    section:nth-child(2) section:nth-child(10) {
-        background: white;
-    }
-
-    section:nth-child(2) section:nth-child(11) {
-        background: white;
     }
 }
