@@ -12,41 +12,49 @@ span span {
 }
 
 @keyframes big-explosion-1 {
+    0% { background: #f6d661; }
     20% { background: #f6d661; transform: translate(100px, -100px); }
     21%, 100% { background: transparent; transform: translate(100px, -100px); }
 }
 
 @keyframes big-explosion-2 {
+    0% { background: #93053b; }
     20% { background: #93053b; transform: translate(100px, 100px); }
     21%, 100% { background: transparent; transform: translate(100px, 100px); }
 }
 
 @keyframes big-explosion-3 {
+    0% { background: #5c82a1; }
     20% { background: #5c82a1; transform: translate(-100px, 100px); }
     21%, 100% { background: transparent; transform: translate(-100px, 100px); }
 }
 
 @keyframes big-explosion-4 {
+    0% { background: #5fb94e; }
     20% { background: #5fb94e; transform: translate(-100px, -100px); }
     21%, 100% { background: transparent; transform: translate(-100px, -100px); }
 }
 
 @keyframes big-red-explosion-1 {
+    0% { background: red; }
     20% { background: red; transform: translate(100px, -100px); }
     21%, 100% { background: transparent; transform: translate(100px, -100px); }
 }
 
 @keyframes big-red-explosion-2 {
+    0% { background: red; }
     20% { background: red; transform: translate(100px, 100px); }
     21%, 100% { background: transparent; transform: translate(100px, 100px); }
 }
 
 @keyframes big-red-explosion-3 {
+    0% { background: red; }
     20% { background: red; transform: translate(-100px, 100px); }
     21%, 100% { background: transparent; transform: translate(-100px, 100px); }
 }
 
 @keyframes big-red-explosion-4 {
+    0% {  background: red; }
     20% { background: red; transform: translate(-100px, -100px); }
     21%, 100% { background: transparent; transform: translate(-100px, -100px); }
 }
@@ -57,41 +65,49 @@ span span span {
 }
 
 @keyframes smaller-explosion-1 {
+    0% { background: #ec2d67; }
     20% { background: #ec2d67; transform: translate(50px, -50px); }
     21%, 100% { background: transparent; transform: translate(50px, -50px); }
 }
 
 @keyframes smaller-explosion-2 {
+    0% { background: #29dd0e; }
     20% { background: #29dd0e; transform: translate(50px, 50px); }
     21%, 100% { background: transparent; transform: translate(50px, 50px); }
 }
 
 @keyframes smaller-explosion-3 {
+    0% { background: #27cfe4; }
     20% { background: #27cfe4; transform: translate(-50px, 50px); }
     21%, 100% { background: transparent; transform: translate(-50px, 50px); }
 }
 
 @keyframes smaller-explosion-4 {
+    0% { background: #2483bd; }
     20% { background: #2483bd; transform: translate(-50px, -50px); }
     21%, 100% { background: transparent; transform: translate(-50px, -50px); }
 }
 
 @keyframes smaller-red-explosion-1 {
+    0% { background: red; }
     20% { background: red; transform: translate(50px, -50px); }
     21%, 100% { background: transparent; transform: translate(50px, -50px); }
 }
 
 @keyframes smaller-red-explosion-2 {
+    0% { background: red; }
     20% { background: red; transform: translate(50px, 50px); }
     21%, 100% { background: transparent; transform: translate(50px, 50px); }
 }
 
 @keyframes smaller-red-explosion-3 {
+    0% { background: red; }
     20% { background: red; transform: translate(-50px, 50px); }
     21%, 100% { background: transparent; transform: translate(-50px, 50px); }
 }
 
 @keyframes smaller-red-explosion-4 {
+    0% { background: red; }
     20% { background: red; transform: translate(-50px, -50px); }
     21%, 100% { background: transparent; transform: translate(-50px, -50px); }
 }
@@ -101,41 +117,49 @@ span span span span {
 }
 
 @keyframes smallest-explosion-1 {
+    0% { background: #212ac1; }
     20% { background: #212ac1; transform: translate(25px, -25px); }
     21%, 100% { background: transparent; transform: translate(25px, -25px); }
 }
 
 @keyframes smallest-explosion-2 {
+    0% { background: #ec8cfb; }
     20% { background: #ec8cfb; transform: translate(25px, 25px); }
     21%, 100% { background: transparent; transform: translate(25px, 25px); }
 }
 
 @keyframes smallest-explosion-3 {
+    0% { background: #fbbc4a; }
     20% { background: #fbbc4a; transform: translate(-25px, 25px); }
     21%, 100% { background: transparent; transform: translate(-25px, 25px); }
 }
 
 @keyframes smallest-explosion-4 {
+    0% { background: #d43d05; }
     20% { background: #d43d05; transform: translate(-25px, -25px); }
     21%, 100% { background: transparent; transform: translate(-25px, -25px);  }
 }
 
 @keyframes smallest-red-explosion-1 {
+    0% { background: red; }
     20% { background: red; transform: translate(25px, -25px); }
     21%, 100% { background: transparent; transform: translate(25px, -25px); }
 }
 
 @keyframes smallest-red-explosion-2 {
+    0% { background: red; }
     20% { background: red; transform: translate(25px, 25px); }
     21%, 100% { background: transparent; transform: translate(25px, 25px); }
 }
 
 @keyframes smallest-red-explosion-3 {
+    0% { background: red; }
     20% { background: red; transform: translate(-25px, 25px); }
     21%, 100% { background: transparent; transform: translate(-25px, 25px); }
 }
 
 @keyframes smallest-red-explosion-4 {
+    0% { background: red; }
     20% { background: red; transform: translate(-25px, -25px); }
     21%, 100% { background: transparent; transform: translate(-25px, -25px); }
 }

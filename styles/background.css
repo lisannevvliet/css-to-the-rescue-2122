@@ -184,6 +184,10 @@ section:nth-child(3) section:nth-child(3) path {
         background: tan;
     }
 
+    section:nth-child(3) section:nth-child(2) {
+        background: skyblue;
+    }
+    
     section:nth-child(3) section:nth-child(3) path {
         fill: skyblue;
     }
