@@ -147,3 +147,42 @@ section:nth-child(2) section:nth-child(11) {
         background: white;
     }
 }
+
+section:nth-child(3) section:nth-child(1) {
+    height: 25px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: burlywood;
+    z-index: -1;
+}
+
+section:nth-child(3) section:nth-child(2) {
+    height: 25px;
+    width: 100%;
+    position: fixed;
+    bottom: 25px;
+    left: 0;
+    background: blue;
+    z-index: -1;
+}
+
+/* https://www.shapedivider.app */
+section:nth-child(3) section:nth-child(3) {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+section:nth-child(3) section:nth-child(3) svg {
+    width: calc(100% + 1.3px);
+    height: 25px;
+}
+
+section:nth-child(3) section:nth-child(3) path {
+    fill: blue;
+}
