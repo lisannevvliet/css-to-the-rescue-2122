@@ -6,49 +6,105 @@ span span {
     position: fixed;
     left: calc(50% - 0.5em);
     top: 30%;
-    animation-duration: 0.5s;
+    animation-duration: 2.5s;
     animation-delay: 1s;
-    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
 }
 
-@keyframes big-explosion-1 {
-    from { background: #47d614; }
-    to { background: #f6d661; transform: translate(100px, -100px); }
+@keyframes dark-big-explosion-1 {
+    0% { background: #47d614; }
+    20% { background: #f6d661; transform: translate(100px, -100px); }
+    21%, 100% { background: black; transform: translate(100px, -100px); }
 }
 
-@keyframes big-explosion-2 {
-    from { background: #687c4b; }
-    to { background: #93053b; transform: translate(100px, 100px); }
+@keyframes dark-big-explosion-2 {
+    0% { background: #687c4b; }
+    20% { background: #93053b; transform: translate(100px, 100px); }
+    21%, 100% { background: black; transform: translate(100px, 100px); }
 }
 
-@keyframes big-explosion-3 {
-    from { background: #ef76b4; }
-    to { background: #5c82a1; transform: translate(-100px, 100px); }
+@keyframes dark-big-explosion-3 {
+    0% { background: #ef76b4; }
+    20% { background: #5c82a1; transform: translate(-100px, 100px); }
+    21%, 100% { background: black; transform: translate(-100px, 100px); }
 }
 
-@keyframes big-explosion-4 {
-    from { background: #b996ed; }
-    to { background: #5fb94e; transform: translate(-100px, -100px); }
+@keyframes dark-big-explosion-4 {
+    0% { background: #b996ed; }
+    20% { background: #5fb94e; transform: translate(-100px, -100px); }
+    21%, 100% { background: black; transform: translate(-100px, -100px); }
 }
 
-@keyframes big-red-explosion-1 {
-    from { background: red; }
-    to { background: red; transform: translate(100px, -100px); }
+@keyframes light-big-explosion-1 {
+    0% { background: #47d614; }
+    20% { background: #f6d661; transform: translate(100px, -100px); }
+    21%, 100% { background: white; transform: translate(100px, -100px); }
 }
 
-@keyframes big-red-explosion-2 {
-    from { background: red; }
-    to { background: red; transform: translate(100px, 100px); }
+@keyframes light-big-explosion-2 {
+    0% { background: #687c4b; }
+    20% { background: #93053b; transform: translate(100px, 100px); }
+    21%, 100% { background: white; transform: translate(100px, 100px); }
 }
 
-@keyframes big-red-explosion-3 {
-    from { background: red; }
-    to { background: red; transform: translate(-100px, 100px); }
+@keyframes light-big-explosion-3 {
+    0% { background: #ef76b4; }
+    20% { background: #5c82a1; transform: translate(-100px, 100px); }
+    21%, 100% { background: white; transform: translate(-100px, 100px); }
 }
 
-@keyframes big-red-explosion-4 {
-    from { background: red; }
-    to { background: red; transform: translate(-100px, -100px); }
+@keyframes light-big-explosion-4 {
+    0% { background: #b996ed; }
+    20% { background: #5fb94e; transform: translate(-100px, -100px); }
+    21%, 100% { background: white; transform: translate(-100px, -100px); }
+}
+
+@keyframes dark-big-red-explosion-1 {
+    0% { background: red; }
+    20% { background: red; transform: translate(100px, -100px); }
+    21%, 100% { background: black; transform: translate(100px, -100px); }
+}
+
+@keyframes dark-big-red-explosion-2 {
+    0% { background: red; }
+    20% { background: red; transform: translate(100px, 100px); }
+    21%, 100% { background: black; transform: translate(100px, 100px); }
+}
+
+@keyframes dark-big-red-explosion-3 {
+    0% { background: red; }
+    20% { background: red; transform: translate(-100px, 100px); }
+    21%, 100% { background: black; transform: translate(-100px, 100px); }
+}
+
+@keyframes dark-big-red-explosion-4 {
+    0% { background: red; }
+    20% { background: red; transform: translate(-100px, -100px); }
+    21%, 100% { background: black; transform: translate(-100px, -100px); }
+}
+
+@keyframes light-big-red-explosion-1 {
+    0% { background: red; }
+    20% { background: red; transform: translate(100px, -100px); }
+    21%, 100% { background: white; transform: translate(100px, -100px); }
+}
+
+@keyframes light-big-red-explosion-2 {
+    0% { background: red; }
+    20% { background: red; transform: translate(100px, 100px); }
+    21%, 100% { background: white; transform: translate(100px, 100px); }
+}
+
+@keyframes light-big-red-explosion-3 {
+    0% { background: red; }
+    20% { background: red; transform: translate(-100px, 100px); }
+    21%, 100% { background: white; transform: translate(-100px, 100px); }
+}
+
+@keyframes light-big-red-explosion-4 {
+    0% { background: red; }
+    20% { background: red; transform: translate(-100px, -100px); }
+    21%, 100% { background: white; transform: translate(-100px, -100px); }
 }
 
 span span span {
@@ -56,98 +112,206 @@ span span span {
     animation-delay: 1.5s;
 }
 
-span span:nth-child(1) span { left: 100px; top: -100px; }
-span span:nth-child(2) span { left: 100px; top: 100px; }
-span span:nth-child(3) span { left: -100px; top: 100px; }
-span span:nth-child(4) span { left: -100px; top: -100px; }
-
-@keyframes smaller-explosion-1 {
-    from { background: #55abda; }
-    to { background: #ec2d67; transform: translate(50px, -50px); }
+@keyframes dark-smaller-explosion-1 {
+    0% { background: #55abda; }
+    20% { background: #ec2d67; transform: translate(50px, -50px); }
+    21%, 100% { background: black; transform: translate(50px, -50px); }
 }
 
-@keyframes smaller-explosion-2 {
-    from { background: #a24f00; }
-    to { background: #29dd0e; transform: translate(50px, 50px); }
+@keyframes dark-smaller-explosion-2 {
+    0% { background: #a24f00; }
+    20% { background: #29dd0e; transform: translate(50px, 50px); }
+    21%, 100% { background: black; transform: translate(50px, 50px); }
 }
 
-@keyframes smaller-explosion-3 {
-    from { background: #8289f4; }
-    to { background: #27cfe4; transform: translate(-50px, 50px); }
+@keyframes dark-smaller-explosion-3 {
+    0% { background: #8289f4; }
+    20% { background: #27cfe4; transform: translate(-50px, 50px); }
+    21%, 100% { background: black; transform: translate(-50px, 50px); }
 }
 
-@keyframes smaller-explosion-4 {
-    from { background: #41d110; }
-    to { background: #2483bd; transform: translate(-50px, -50px); }
+@keyframes dark-smaller-explosion-4 {
+    0% { background: #41d110; }
+    20% { background: #2483bd; transform: translate(-50px, -50px); }
+    21%, 100% { background: black; transform: translate(-50px, -50px); }
 }
 
-@keyframes smaller-red-explosion-1 {
-    from { background: red; }
-    to { background: red; transform: translate(50px, -50px); }
+@keyframes light-smaller-explosion-1 {
+    0% { background: #55abda; }
+    20% { background: #ec2d67; transform: translate(50px, -50px); }
+    21%, 100% { background: white; transform: translate(50px, -50px); }
 }
 
-@keyframes smaller-red-explosion-2 {
-    from { background: red; }
-    to { background: red; transform: translate(50px, 50px); }
+@keyframes light-smaller-explosion-2 {
+    0% { background: #a24f00; }
+    20% { background: #29dd0e; transform: translate(50px, 50px); }
+    21%, 100% { background: white; transform: translate(50px, 50px); }
 }
 
-@keyframes smaller-red-explosion-3 {
-    from { background: red; }
-    to { background: red; transform: translate(-50px, 50px); }
+@keyframes light-smaller-explosion-3 {
+    0% { background: #8289f4; }
+    20% { background: #27cfe4; transform: translate(-50px, 50px); }
+    21%, 100% { background: white; transform: translate(-50px, 50px); }
 }
 
-@keyframes smaller-red-explosion-4 {
-    from { background: red; }
-    to { background: red; transform: translate(-50px, -50px); }
+@keyframes light-smaller-explosion-4 {
+    0% { background: #41d110; }
+    20% { background: #2483bd; transform: translate(-50px, -50px); }
+    21%, 100% { background: black; transform: translate(-50px, -50px); }
+}
+
+@keyframes dark-smaller-red-explosion-1 {
+    0% { background: red; }
+    20% { background: red; transform: translate(50px, -50px); }
+    21%, 100% { background: black; transform: translate(50px, -50px); }
+}
+
+@keyframes dark-smaller-red-explosion-2 {
+    0% { background: red; }
+    20% { background: red; transform: translate(50px, 50px); }
+    21%, 100% { background: black; transform: translate(50px, 50px); }
+}
+
+@keyframes dark-smaller-red-explosion-3 {
+    0% { background: red; }
+    20% { background: red; transform: translate(-50px, 50px); }
+    21%, 100% { background: black; transform: translate(-50px, 50px); }
+}
+
+@keyframes dark-smaller-red-explosion-4 {
+    0% { background: red; }
+    20% { background: red; transform: translate(-50px, -50px); }
+    21%, 100% { background: black; transform: translate(-50px, -50px); }
+}
+
+@keyframes light-smaller-explosion-4 {
+    0% { background: #41d110; }
+    20% { background: #2483bd; transform: translate(-50px, -50px); }
+    21%, 100% { background: black; transform: translate(-50px, -50px); }
+}
+
+@keyframes light-smaller-red-explosion-1 {
+    0% { background: red; }
+    20% { background: red; transform: translate(50px, -50px); }
+    21%, 100% { background: white; transform: translate(50px, -50px); }
+}
+
+@keyframes light-smaller-red-explosion-2 {
+    0% { background: red; }
+    20% { background: red; transform: translate(50px, 50px); }
+    21%, 100% { background: white; transform: translate(50px, 50px); }
+}
+
+@keyframes light-smaller-red-explosion-3 {
+    0% { background: red; }
+    20% { background: red; transform: translate(-50px, 50px); }
+    21%, 100% { background: white; transform: translate(-50px, 50px); }
+}
+
+@keyframes light-smaller-red-explosion-4 {
+    0% { background: red; }
+    20% { background: red; transform: translate(-50px, -50px); }
+    21%, 100% { background: white; transform: translate(-50px, -50px); }
 }
 
 span span span span {
     animation-delay: 2s;
 }
 
-span span span:nth-child(1) span { left: 50px; top: -50px; }
-span span span:nth-child(2) span { left: 50px; top: 50px; }
-span span span:nth-child(3) span { left: -50px; top: 50px; }
-span span span:nth-child(4) span { left: -50px; top: -50px; }
-
-@keyframes smallest-explosion-1 {
-    from { background: #f83e9f; }
-    to { background: #212ac1; transform: translate(25px, -25px); }
+@keyframes dark-smallest-explosion-1 {
+    0% { background: #f83e9f; }
+    20% { background: #212ac1; transform: translate(25px, -25px); }
+    21%, 100% { background: black; }
 }
 
-@keyframes smallest-explosion-2 {
-    from { background: #50d0b5; }
-    to { background: #ec8cfb; transform: translate(25px, 25px); }
+@keyframes dark-smallest-explosion-2 {
+    0% { background: #50d0b5; }
+    20% { background: #ec8cfb; transform: translate(25px, 25px); }
+    21%, 100% { background: black; }
 }
 
-@keyframes smallest-explosion-3 {
-    from { background: #851abf; }
-    to { background: #fbbc4a; transform: translate(-25px, 25px); }
+@keyframes dark-smallest-explosion-3 {
+    0% { background: #851abf; }
+    20% { background: #fbbc4a; transform: translate(-25px, 25px); }
+    21%, 100% { background: black; }
 }
 
-@keyframes smallest-explosion-4 {
-    from { background: #089fc6; }
-    to { background: #d43d05; transform: translate(-25px, -25px); }
+@keyframes dark-smallest-explosion-4 {
+    0% { background: #089fc6; }
+    20% { background: #d43d05; transform: translate(-25px, -25px); }
+    21%, 100% { background: black; }
 }
 
-@keyframes smallest-red-explosion-1 {
-    from { background: red; }
-    to { background: red; transform: translate(25px, -25px); }
+@keyframes light-smallest-explosion-1 {
+    0% { background: #f83e9f; }
+    20% { background: #212ac1; transform: translate(25px, -25px); }
+    21%, 100% { background: white; }
 }
 
-@keyframes smallest-red-explosion-2 {
-    from { background: red; }
-    to { background: red; transform: translate(25px, 25px); }
+@keyframes light-smallest-explosion-2 {
+    0% { background: #50d0b5; }
+    20% { background: #ec8cfb; transform: translate(25px, 25px); }
+    21%, 100% { background: white; }
 }
 
-@keyframes smallest-red-explosion-3 {
-    from { background: red; }
-    to { background: red; transform: translate(-25px, 25px); }
+@keyframes light-smallest-explosion-3 {
+    0% { background: #851abf; }
+    20% { background: #fbbc4a; transform: translate(-25px, 25px); }
+    21%, 100% { background: white; }
 }
 
-@keyframes smallest-red-explosion-4 {
-    from { background: red; }
-    to { background: red; transform: translate(-25px, -25px); }
+@keyframes light-smallest-explosion-4 {
+    0% { background: #089fc6; }
+    20% { background: #d43d05; transform: translate(-25px, -25px); }
+    21%, 100% { background: white; }
+}
+
+@keyframes dark-smallest-red-explosion-1 {
+    0% { background: red; }
+    20% { background: red; transform: translate(25px, -25px); }
+    21%, 100% { background: black; }
+}
+
+@keyframes dark-smallest-red-explosion-2 {
+    0% { background: red; }
+    20% { background: red; transform: translate(25px, 25px); }
+    21%, 100% { background: black; }
+}
+
+@keyframes dark-smallest-red-explosion-3 {
+    0% { background: red; }
+    20% { background: red; transform: translate(-25px, 25px); }
+    21%, 100% { background: black; }
+}
+
+@keyframes dark-smallest-red-explosion-4 {
+    0% { background: red; }
+    20% { background: red; transform: translate(-25px, -25px); }
+    21%, 100% { background: black; }
+}
+
+@keyframes light-smallest-red-explosion-1 {
+    0% { background: red; }
+    20% { background: red; transform: translate(25px, -25px); }
+    21%, 100% { background: white; }
+}
+
+@keyframes light-smallest-red-explosion-2 {
+    0% { background: red; }
+    20% { background: red; transform: translate(25px, 25px); }
+    21%, 100% { background: white; }
+}
+
+@keyframes light-smallest-red-explosion-3 {
+    0% { background: red; }
+    20% { background: red; transform: translate(-25px, 25px); }
+    21%, 100% { background: white; }
+}
+
+@keyframes light-smallest-red-explosion-4 {
+    0% { background: red; }
+    20% { background: red; transform: translate(-25px, -25px); }
+    21%, 100% { background: white; }
 }
 
 @media (prefers-color-scheme: light) {
@@ -157,35 +321,67 @@ span span span:nth-child(4) span { left: -50px; top: -50px; }
 }
 
 @media(prefers-reduced-motion:no-preference) {
-    span span:nth-child(1) { animation-name: big-explosion-1; }
-    span span:nth-child(2) { animation-name: big-explosion-2; }
-    span span:nth-child(3) { animation-name: big-explosion-3; }
-    span span:nth-child(4) { animation-name: big-explosion-4; }
+    span span:nth-child(1) { animation-name: dark-big-explosion-1; }
+    span span:nth-child(2) { animation-name: dark-big-explosion-2; }
+    span span:nth-child(3) { animation-name: dark-big-explosion-3; }
+    span span:nth-child(4) { animation-name: dark-big-explosion-4; }
 
-    input:checked ~ span span:nth-child(1) { animation-name: big-red-explosion-1; }
-    input:checked ~ span span:nth-child(2) { animation-name: big-red-explosion-2; }
-    input:checked ~ span span:nth-child(3) { animation-name: big-red-explosion-3; }
-    input:checked ~ span span:nth-child(4) { animation-name: big-red-explosion-4; }
+    input:checked ~ span span:nth-child(1) { animation-name: dark-big-red-explosion-1; }
+    input:checked ~ span span:nth-child(2) { animation-name: dark-big-red-explosion-2; }
+    input:checked ~ span span:nth-child(3) { animation-name: dark-big-red-explosion-3; }
+    input:checked ~ span span:nth-child(4) { animation-name: dark-big-red-explosion-4; }
 
-    span span span:nth-child(1) { animation-name: smaller-explosion-1; }
-    span span span:nth-child(2) { animation-name: smaller-explosion-2; }
-    span span span:nth-child(3) { animation-name: smaller-explosion-3; }
-    span span span:nth-child(4) { animation-name: smaller-explosion-4; }
+    span span span:nth-child(1) { animation-name: dark-smaller-explosion-1; }
+    span span span:nth-child(2) { animation-name: dark-smaller-explosion-2; }
+    span span span:nth-child(3) { animation-name: dark-smaller-explosion-3; }
+    span span span:nth-child(4) { animation-name: dark-smaller-explosion-4; }
 
-    input:checked ~ span span span:nth-child(1) { animation-name: smaller-red-explosion-1; }
-    input:checked ~ span span span:nth-child(2) { animation-name: smaller-red-explosion-2; }
-    input:checked ~ span span span:nth-child(3) { animation-name: smaller-red-explosion-3; }
-    input:checked ~ span span span:nth-child(4) { animation-name: smaller-red-explosion-4; }
+    input:checked ~ span span span:nth-child(1) { animation-name: dark-smaller-red-explosion-1; }
+    input:checked ~ span span span:nth-child(2) { animation-name: dark-smaller-red-explosion-2; }
+    input:checked ~ span span span:nth-child(3) { animation-name: dark-smaller-red-explosion-3; }
+    input:checked ~ span span span:nth-child(4) { animation-name: dark-smaller-red-explosion-4; }
 
-    span span span span:nth-child(1) { animation-name: smallest-explosion-1; }
-    span span span span:nth-child(2) { animation-name: smallest-explosion-2; }
-    span span span span:nth-child(3) { animation-name: smallest-explosion-3; }
-    span span span span:nth-child(4) { animation-name: smallest-explosion-4; }
+    span span span span:nth-child(1) { animation-name: dark-smallest-explosion-1; }
+    span span span span:nth-child(2) { animation-name: dark-smallest-explosion-2; }
+    span span span span:nth-child(3) { animation-name: dark-smallest-explosion-3; }
+    span span span span:nth-child(4) { animation-name: dark-smallest-explosion-4; }
 
-    input:checked ~ span span span span:nth-child(1) { animation-name: smallest-red-explosion-1; }
-    input:checked ~ span span span span:nth-child(2) { animation-name: smallest-red-explosion-2; }
-    input:checked ~ span span span span:nth-child(3) { animation-name: smallest-red-explosion-3; }
-    input:checked ~ span span span span:nth-child(4) { animation-name: smallest-red-explosion-4; }
+    input:checked ~ span span span span:nth-child(1) { animation-name: dark-smallest-red-explosion-1; }
+    input:checked ~ span span span span:nth-child(2) { animation-name: dark-smallest-red-explosion-2; }
+    input:checked ~ span span span span:nth-child(3) { animation-name: dark-smallest-red-explosion-3; }
+    input:checked ~ span span span span:nth-child(4) { animation-name: dark-smallest-red-explosion-4; }
+
+    @media (prefers-color-scheme: light) {
+        span span:nth-child(1) { animation-name: light-big-explosion-1; }
+        span span:nth-child(2) { animation-name: light-big-explosion-2; }
+        span span:nth-child(3) { animation-name: light-big-explosion-3; }
+        span span:nth-child(4) { animation-name: light-big-explosion-4; }
+
+        input:checked ~ span span:nth-child(1) { animation-name: light-big-red-explosion-1; }
+        input:checked ~ span span:nth-child(2) { animation-name: light-big-red-explosion-2; }
+        input:checked ~ span span:nth-child(3) { animation-name: light-big-red-explosion-3; }
+        input:checked ~ span span:nth-child(4) { animation-name: light-big-red-explosion-4; }
+
+        span span span:nth-child(1) { animation-name: light-dark-smaller-explosion-1; }
+        span span span:nth-child(2) { animation-name: light-dark-smaller-explosion-2; }
+        span span span:nth-child(3) { animation-name: light-dark-smaller-explosion-3; }
+        span span span:nth-child(4) { animation-name: light-dark-smaller-explosion-4; }
+
+        input:checked ~ span span span:nth-child(1) { animation-name: light-smaller-red-explosion-1; }
+        input:checked ~ span span span:nth-child(2) { animation-name: light-smaller-red-explosion-2; }
+        input:checked ~ span span span:nth-child(3) { animation-name: light-smaller-red-explosion-3; }
+        input:checked ~ span span span:nth-child(4) { animation-name: light-smaller-red-explosion-4; }
+
+        span span span span:nth-child(1) { animation-name: light-smallest-explosion-1; }
+        span span span span:nth-child(2) { animation-name: light-smallest-explosion-2; }
+        span span span span:nth-child(3) { animation-name: light-smallest-explosion-3; }
+        span span span span:nth-child(4) { animation-name: light-smallest-explosion-4; }
+
+        input:checked ~ span span span span:nth-child(1) { animation-name: light-smallest-red-explosion-1; }
+        input:checked ~ span span span span:nth-child(2) { animation-name: light-smallest-red-explosion-2; }
+        input:checked ~ span span span span:nth-child(3) { animation-name: light-smallest-red-explosion-3; }
+        input:checked ~ span span span span:nth-child(4) { animation-name: light-smallest-red-explosion-4; }
+    }
 }
 
 @media(prefers-reduced-motion) {
