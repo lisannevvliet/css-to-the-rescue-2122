@@ -8,29 +8,29 @@ body > span {
     top: 100%;
     /* https://matthewlein.com/tools/ceaser */
     z-index: -1;
-    animation: rocket-dark 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite;
+    animation: dark-rocket 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite;
 }
 
 input:checked ~ span {
-    animation-name: red-rocket-dark;
+    animation-name: dark-red-rocket;
 }
 
-@keyframes rocket-dark {
+@keyframes dark-rocket {
     40% { background: white; top: 30%; }
     41%, 100% { background: black; }
 }
 
-@keyframes red-rocket-dark {
+@keyframes dark-red-rocket {
     40% { background: red; top: 30%; }
     41%, 100% { background: black;}
 }
 
-@keyframes rocket-light {
+@keyframes light-rocket {
     40% { background: black; top: 30%; }
     41%, 100%  { background: white; }
 }
 
-@keyframes red-rocket-light {
+@keyframes light-red-rocket {
     40% { background: red; top: 30%; }
     41%, 100%  { background: white; }
 }
@@ -38,11 +38,11 @@ input:checked ~ span {
 @media (prefers-color-scheme: light) {
     body > span {
         background: white;
-        animation-name: rocket-light;
+        animation-name: light-rocket;
     }
 
     input:checked ~ span {
-        animation-name: red-rocket-light;
+        animation-name: light-red-rocket;
     }
 }
 
