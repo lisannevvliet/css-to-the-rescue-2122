@@ -174,6 +174,42 @@ section:nth-child(3) section:nth-child(3) path {
         box-shadow: none;
     }
 
+    section section:nth-child(2) section:nth-child(1) {
+        background: black;
+    }
+
+    section section:nth-child(2) section:nth-child(2) {
+        background: black;
+    }
+
+    section section:nth-child(2) section:nth-child(3) {
+        background: black;
+    }
+
+    section section:nth-child(2) section:nth-child(4) {
+        background: black;
+    }
+
+    section section:nth-child(2) section:nth-child(5) {
+        background: black;
+    }
+
+    section section:nth-child(2) section:nth-child(6) {
+        background: black;
+    }
+
+    section section:nth-child(2) section:nth-child(7) {
+        background: black;
+    }
+
+    section section:nth-child(2) section:nth-child(8) {
+        background: black;
+    }
+
+    section section:nth-child(2) section:nth-child(9) {
+        background: black;
+    }
+
     section:nth-child(2) section:nth-child(10) {
         background: white;
     }
