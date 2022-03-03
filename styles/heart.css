@@ -42,3 +42,9 @@ input:checked ~ label span:after {
     60% { transform: scale(1.2); }
     70%, 100% { transform:s cale(1); }
 }
+
+@media (prefers-reduced-motion) {
+    input:checked ~ label span:after {
+        animation: none;
+    }
+}
