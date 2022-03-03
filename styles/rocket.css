@@ -1,5 +1,5 @@
 body > span {
-    background: black;
+    background: transparent;
     height: 10px;
     width: 10px;
     border-radius: 50%;
@@ -12,37 +12,27 @@ body > span {
 }
 
 input:checked ~ span {
-    animation-name: dark-red-rocket;
+    animation-name: red-rocket;
 }
 
 @keyframes dark-rocket {
     40% { background: white; top: 30%; }
-    41%, 100% { background: black; }
-}
-
-@keyframes dark-red-rocket {
-    40% { background: red; top: 30%; }
-    41%, 100% { background: black;}
+    41%, 100% { background: transparent; top: 30%; }
 }
 
 @keyframes light-rocket {
     40% { background: black; top: 30%; }
-    41%, 100%  { background: white; }
+    41%, 100%  { background: transparent; top: 30%; }
 }
 
-@keyframes light-red-rocket {
+@keyframes red-rocket {
     40% { background: red; top: 30%; }
-    41%, 100%  { background: white; }
+    41%, 100% { background: transparent; top: 30%; }
 }
 
 @media (prefers-color-scheme: light) {
     body > span {
-        background: white;
         animation-name: light-rocket;
-    }
-
-    input:checked ~ span {
-        animation-name: light-red-rocket;
     }
 }
 

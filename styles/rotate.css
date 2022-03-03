@@ -2,7 +2,7 @@ span section {
   position: fixed;
   left: calc(50% - 0.5em);
   top: 30%;
-  animation: rotate 1.5s ease-out 1s;
+  animation: rotate 2.5s ease-out 1s infinite;
 }
 
 input:checked ~ span section {
@@ -10,11 +10,11 @@ input:checked ~ span section {
 }
 
 @keyframes rotate {
-  to { transform: rotate(360deg); }
+  62% { transform: rotate(360deg); }
 }
 
 @keyframes rotate-checked {
-  to { transform: rotate(360deg); }
+  62% { transform: rotate(360deg); }
 }
 
 @media(prefers-reduced-motion) {
