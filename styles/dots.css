@@ -11,24 +11,6 @@ span span {
     animation-iteration-count: 1;
 }
 
-@media (prefers-color-scheme: light) {
-    span span {
-        background: white;
-    }
-}
-
-@media(prefers-reduced-motion:no-preference) {
-    span span:nth-child(1) { animation-name: big-explosion-1; }
-    span span:nth-child(2) { animation-name: big-explosion-2; }
-    span span:nth-child(3) { animation-name: big-explosion-3; }
-    span span:nth-child(4) { animation-name: big-explosion-5; }
-
-    input:checked ~ span span:nth-child(1) { animation-name: big-red-explosion-1; }
-    input:checked ~ span span:nth-child(2) { animation-name: big-red-explosion-2; }
-    input:checked ~ span span:nth-child(3) { animation-name: big-red-explosion-3; }
-    input:checked ~ span span:nth-child(4) { animation-name: big-red-explosion-4; }
-}
-
 /* http://randomcolour.com */
 @keyframes big-explosion-1 {
     from { background: #47d614; }
@@ -80,18 +62,6 @@ span span:nth-child(2) span { left: 100px; top: 100px; }
 span span:nth-child(3) span { left: -100px; top: 100px; }
 span span:nth-child(4) span { left: -100px; top: -100px; }
 
-@media(prefers-reduced-motion:no-preference) {
-    span span span:nth-child(1) { animation-name: smaller-explosion-1; }
-    span span span:nth-child(2) { animation-name: smaller-explosion-2; }
-    span span span:nth-child(3) { animation-name: smaller-explosion-3; }
-    span span span:nth-child(4) { animation-name: smaller-explosion-4; }
-
-    input:checked ~ span span span:nth-child(1) { animation-name: smaller-red-explosion-1; }
-    input:checked ~ span span span:nth-child(2) { animation-name: smaller-red-explosion-2; }
-    input:checked ~ span span span:nth-child(3) { animation-name: smaller-red-explosion-3; }
-    input:checked ~ span span span:nth-child(4) { animation-name: smaller-red-explosion-4; }
-}
-
 @keyframes smaller-explosion-1 {
     from { background: #55abda; }
     to { background: #ec2d67; transform: translate(50px, -50px); }
@@ -141,30 +111,6 @@ span span span:nth-child(2) span { left: 50px; top: 50px; }
 span span span:nth-child(3) span { left: -50px; top: 50px; }
 span span span:nth-child(4) span { left: -50px; top: -50px; }
 
-@media(prefers-reduced-motion:no-preference) {
-    span span span span:nth-child(1) { animation-name: smallest-explosion-1; }
-    span span span span:nth-child(2) { animation-name: smallest-explosion-2; }
-    span span span span:nth-child(3) { animation-name: smallest-explosion-3; }
-    span span span span:nth-child(4) { animation-name: smallest-explosion-4; }
-
-    input:checked ~ span span span span:nth-child(1) { animation-name: smallest-red-explosion-1; }
-    input:checked ~ span span span span:nth-child(2) { animation-name: smallest-red-explosion-2; }
-    input:checked ~ span span span span:nth-child(3) { animation-name: smallest-red-explosion-3; }
-    input:checked ~ span span span span:nth-child(4) { animation-name: smallest-red-explosion-4; }
-}
-
-@media(prefers-reduced-motion) {
-    span span span span:nth-child(1) { background: #212ac1; transform: translate(25px, -25px); }
-    span span span span:nth-child(2) { background: #ec8cfb; transform: translate(25px, 25px); }
-    span span span span:nth-child(3) { background: #fbbc4a; transform: translate(-25px, 25px); }
-    span span span span:nth-child(4) { background: #d43d05; transform: translate(-25px, -25px); }
-
-    input:checked ~ span span span span:nth-child(1) { background: red; transform: translate(25px, -25px); }
-    input:checked ~ span span span span:nth-child(2) { background: red; transform: translate(25px, 25px); }
-    input:checked ~ span span span span:nth-child(3) { background: red; transform: translate(-25px, 25px); }
-    input:checked ~ span span span span:nth-child(4) { background: red; transform: translate(-25px, -25px); }
-}
-
 @keyframes smallest-explosion-1 {
     from { background: #f83e9f; }
     to { background: #212ac1; transform: translate(25px, -25px); }
@@ -203,4 +149,54 @@ span span span:nth-child(4) span { left: -50px; top: -50px; }
 @keyframes smallest-red-explosion-4 {
     from { background: red; }
     to { background: red; transform: translate(-25px, -25px); }
+}
+
+@media (prefers-color-scheme: light) {
+    span span {
+        background: white;
+    }
+}
+
+@media(prefers-reduced-motion:no-preference) {
+    span span:nth-child(1) { animation-name: big-explosion-1; }
+    span span:nth-child(2) { animation-name: big-explosion-2; }
+    span span:nth-child(3) { animation-name: big-explosion-3; }
+    span span:nth-child(4) { animation-name: big-explosion-5; }
+
+    input:checked ~ span span:nth-child(1) { animation-name: big-red-explosion-1; }
+    input:checked ~ span span:nth-child(2) { animation-name: big-red-explosion-2; }
+    input:checked ~ span span:nth-child(3) { animation-name: big-red-explosion-3; }
+    input:checked ~ span span:nth-child(4) { animation-name: big-red-explosion-4; }
+
+    span span span:nth-child(1) { animation-name: smaller-explosion-1; }
+    span span span:nth-child(2) { animation-name: smaller-explosion-2; }
+    span span span:nth-child(3) { animation-name: smaller-explosion-3; }
+    span span span:nth-child(4) { animation-name: smaller-explosion-4; }
+
+    input:checked ~ span span span:nth-child(1) { animation-name: smaller-red-explosion-1; }
+    input:checked ~ span span span:nth-child(2) { animation-name: smaller-red-explosion-2; }
+    input:checked ~ span span span:nth-child(3) { animation-name: smaller-red-explosion-3; }
+    input:checked ~ span span span:nth-child(4) { animation-name: smaller-red-explosion-4; }
+
+    span span span span:nth-child(1) { animation-name: smallest-explosion-1; }
+    span span span span:nth-child(2) { animation-name: smallest-explosion-2; }
+    span span span span:nth-child(3) { animation-name: smallest-explosion-3; }
+    span span span span:nth-child(4) { animation-name: smallest-explosion-4; }
+
+    input:checked ~ span span span span:nth-child(1) { animation-name: smallest-red-explosion-1; }
+    input:checked ~ span span span span:nth-child(2) { animation-name: smallest-red-explosion-2; }
+    input:checked ~ span span span span:nth-child(3) { animation-name: smallest-red-explosion-3; }
+    input:checked ~ span span span span:nth-child(4) { animation-name: smallest-red-explosion-4; }
+}
+
+@media(prefers-reduced-motion) {
+    span span span span:nth-child(1) { background: #212ac1; transform: translate(25px, -25px); }
+    span span span span:nth-child(2) { background: #ec8cfb; transform: translate(25px, 25px); }
+    span span span span:nth-child(3) { background: #fbbc4a; transform: translate(-25px, 25px); }
+    span span span span:nth-child(4) { background: #d43d05; transform: translate(-25px, -25px); }
+
+    input:checked ~ span span span span:nth-child(1) { background: red; transform: translate(25px, -25px); }
+    input:checked ~ span span span span:nth-child(2) { background: red; transform: translate(25px, 25px); }
+    input:checked ~ span span span span:nth-child(3) { background: red; transform: translate(-25px, 25px); }
+    input:checked ~ span span span span:nth-child(4) { background: red; transform: translate(-25px, -25px); }
 }

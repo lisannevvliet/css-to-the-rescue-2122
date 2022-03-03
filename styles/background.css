@@ -2,12 +2,6 @@ body {
     background: black;
 }
 
-@media (prefers-color-scheme: light) {
-    body {
-        background: white;
-    }
-}
-
 /* Moon */
 body > section > section:nth-child(1) {
     position: fixed;
@@ -18,13 +12,6 @@ body > section > section:nth-child(1) {
     box-shadow: -7.5px 7.5px 0 2.5px yellow;
     border-radius: 50%;
     z-index: -1;
-}
-
-@media (prefers-color-scheme: light) {
-    body > section > section:nth-child(1) {
-        background: yellow;
-        box-shadow: none;
-    }
 }
 
 /* Heads */
@@ -138,16 +125,6 @@ section:nth-child(2) section:nth-child(11) {
     bottom: 25px;
 }
 
-@media (prefers-color-scheme: light) {
-    section:nth-child(2) section:nth-child(10) {
-        background: white;
-    }
-
-    section:nth-child(2) section:nth-child(11) {
-        background: white;
-    }
-}
-
 section:nth-child(3) section:nth-child(1) {
     height: 25px;
     width: 100%;
@@ -185,4 +162,23 @@ section:nth-child(3) section:nth-child(3) svg {
 
 section:nth-child(3) section:nth-child(3) path {
     fill: blue;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: white;
+    }
+
+    body > section > section:nth-child(1) {
+        background: yellow;
+        box-shadow: none;
+    }
+
+    section:nth-child(2) section:nth-child(10) {
+        background: white;
+    }
+
+    section:nth-child(2) section:nth-child(11) {
+        background: white;
+    }
 }
