@@ -126,12 +126,12 @@ section:nth-child(2) section:nth-child(11) {
 }
 
 section:nth-child(3) section:nth-child(1) {
-    height: 25px;
+    height: 50px;
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
-    background: burlywood;
+    background: tan;
     z-index: -1;
 }
 
@@ -139,16 +139,16 @@ section:nth-child(3) section:nth-child(2) {
     height: 25px;
     width: 100%;
     position: fixed;
-    bottom: 25px;
+    bottom: 50px;
     left: 0;
-    background: blue;
+    background: skyblue;
     z-index: -1;
 }
 
 /* https://www.shapedivider.app */
 section:nth-child(3) section:nth-child(3) {
     position: absolute;
-    bottom: 50px;
+    bottom: 75px;
     left: 0;
     width: 100%;
     transform: rotate(180deg);
@@ -161,7 +161,7 @@ section:nth-child(3) section:nth-child(3) svg {
 }
 
 section:nth-child(3) section:nth-child(3) path {
-    fill: blue;
+    fill: skyblue;
 }
 
 @media (prefers-color-scheme: light) {
