@@ -37,6 +37,25 @@ In eerste instantie wilde ik normaal vuurwerk maken, maar nu heb ik het plan ver
 **Waar liggen je (nieuwe) uitdagingen voor komende week?**  
 (Nieuwe) uitdagingen voor de komende week zullen zijn het responsive maken van de explosie, zodat het een vierkant blijft als het scherm smaller wordt, en het  toevoegen van subexplosies zonder boilerplate code te schrijven.
 
+### Week 2½
+**Laat je voortgang zien (“praatje met plaatjes”).**  
+...
+
+**Wat ging er soepel en wat was lastig?**  
+...
+
+**Welke experimenten heb je gedaan die die ‘mislukt’ zijn?**  
+...
+
+**Heb je nieuwe inzichten hoe je de kracht CSS kunt benutten (of juist niet)?**  
+...
+
+**Neem wijzigingen aan je 1e plan op.**  
+...
+
+**Waar liggen je (nieuwe) uitdagingen voor komende week?**  
+...
+
 ### Week 3
 **Laat je voortgang zien (“praatje met plaatjes”).**  
 ...
