@@ -39,7 +39,7 @@ In eerste instantie wilde ik normaal vuurwerk maken, maar nu heb ik het plan ver
 
 ### Week 2½
 **Laat je voortgang zien (“praatje met plaatjes”).**  
-...
+In de voorjaarsvakantie heb ik veel van mijn tijd aan CSS to the Rescue besteed. Ik was niet trots op wat ik tot dan toe had, dus besloot ik om verschillende soort vuurwerk uit te proberen en de beste verder uit te werken. Na nog wat gerommeld te hebben met [het vuurwerk dat gebaseerd was op een voorbeeld](https://codepen.io/lisannevanvliet/pen/jOaJYYv), heb ik dit idee maar links laten liggen. Voordat ik mij volledig stortte op het vuurwerk met de stipjes, dat ik helemaal zelf gemaakt had, besloot ik nog één nieuw vuurwerk uit te proberen. Hiervoor had ik middels een offset-path [een spiraalvormig vuurwerk](https://codepen.io/lisannevanvliet/pen/WNXmdyK) gecreëerd (werkt alleen niet in Safari). Het lukte mij niet om ervoor te zorgen dat het beginpunt van de spiraal het eindpunt van de vuurpeil was, en tijdens de voorjaarsvakantie kon ik dit probleem niet voorleggen aan anderen. Hierop besloot ik om [het zelfgemaakte vuurwerk met de stipjes](https://codepen.io/lisannevanvliet/pen/wvPOprp) verder uit te werken. Hier heb ik allemaal subexplosies, kleuren, een maan, een verliefd koppel en een hartje boven het koppel aan toegevoegd. Daarnaast kreeg ik de tip van mijn familie dat het leuk zou zijn als het vuurwerk uiteindelijk ronddraait. Dit heb ik geimplementeerd.
 
 **Wat ging er soepel en wat was lastig?**  
 ...
