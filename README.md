@@ -58,10 +58,10 @@ In het plan van vorige week had ik niet opgenomen dat er een achtegrond (de maan
 
 ### Week 3
 **Laat je voortgang zien (“praatje met plaatjes”).**  
-...
+In de derde week heb ik de doelen van de week ervoor uitgewerkt. Zo heb ik ervoor gezorgd dat het vuurwerk rood wordt als de checkbox gechecked is (dus als het hartje boven het koppel verschijnt). Verder heb ik ervoor gezorgd dat het hele vuurwerk zich eindeloos opnieuw blijft afspelen. Tenslotte luistert de website naar de voorkeuren van de gebruiker. De kleuren worden aangepast op light/dark mode en het vuurwerk blijft in de eindpositie stil staan als de gebruiker reduced motion aan heeft staan. [Het vuurwerk](https://codepen.io/lisannevanvliet/pen/ExbMQgg) is nu in principe af.
 
 **Wat ging er soepel en wat was lastig?**  
-Verder was het omzetten van het koppel naar een checkbox een uitdaging, omdat ik het eerst probeerde een ID te gebruiken. Dit lukte niet, omdat ik dan een laag omhoog...
+Wat er soepel ging was het luisteren naar de voorkeuren van de gebruiker (light/dark mode en reduced motion). Het implementeren van de light mode bleek ook makkelijker dan vooraf gedacht. Wat er lastig was, was het omzetten van het koppel naar een checkbox, omdat ik het eerst probeerde een ID te gebruiken. Dit lukte niet, omdat ik dan een laag omhoog zou moeten om het vuurwerk aan te passen, en dit kan alleen nog in Safari Technology Preview. Ik wilde graag dat mijn vuurwerk op alle browsers correct eruit ziet, dus dan vervalt deze optie. Er zat niets anders op dan toch een ID te gebruiken, zodat het label onder de checkbox kon staan (in tegenstelling tot eromheen). Aan Vasilis heb ik gevraagd of dit oké was, en hij vond het prima, omdat er geen andere mogelijkheid is.
 
 **Welke experimenten heb je gedaan die die ‘mislukt’ zijn?**  
 ...
