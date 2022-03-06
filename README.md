@@ -54,23 +54,23 @@ Ik heb zeker nieuwe inzichten in hoe ik de kracht van CSS kan benutten. Zo had i
 In het plan van vorige week had ik niet opgenomen dat er een achtegrond (de maan en het koppel) bij het vuurwerk zou komen. Ook wist ik nog niet op welke manier ik het vuurwerk wilde beinvloeden, maar nu wel: als het hartje verschijnt, wil ik dat het vuurwerk rood wordt.
 
 **Waar liggen je (nieuwe) uitdagingen voor komende week?**  
-(Nieuwe) uitdagingen voor de komende week zullen zijn: ervoor zorgen dat het vuurwerk altijd opnieuw blijft afspelen. Dit is zo makkelijk nog niet, omdat de animnation-delay enkel de eerste keer werkt. De tweede keer speelt alles dus tegelijkertijd af. Verder wil ik dat het vuurwerk rood wordt als de checkbox gechecked is (dus als het hartje boven het koppel verschijnt).
+(Nieuwe) uitdagingen voor de komende week zullen zijn: ervoor zorgen dat het vuurwerk altijd opnieuw blijft afspelen. Dit is zo makkelijk nog niet, omdat de animation-delay enkel de eerste keer werkt. De tweede keer speelt alles dus tegelijkertijd af. Verder wil ik dat het vuurwerk rood wordt als de checkbox gechecked is (dus als het hartje boven het koppel verschijnt).
 
 ### Week 3
 **Laat je voortgang zien (“praatje met plaatjes”).**  
-In de derde week heb ik de doelen van de week ervoor uitgewerkt. Zo heb ik ervoor gezorgd dat het vuurwerk rood wordt als de checkbox gechecked is (dus als het hartje boven het koppel verschijnt). Verder heb ik ervoor gezorgd dat het hele vuurwerk zich eindeloos opnieuw blijft afspelen. Tenslotte luistert de website naar de voorkeuren van de gebruiker. De kleuren worden aangepast op light/dark mode en het vuurwerk blijft in de eindpositie stil staan als de gebruiker reduced motion aan heeft staan. [Het vuurwerk](https://codepen.io/lisannevanvliet/pen/ExbMQgg) is nu in principe af.
+In de derde week heb ik de doelen van de week ervoor uitgewerkt. Zo heb ik ervoor gezorgd dat het vuurwerk rood wordt als de checkbox gechecked is (dus als het hartje boven het koppel verschijnt). Verder heb ik ervoor gezorgd dat het hele vuurwerk zich eindeloos opnieuw blijft afspelen. Ook luistert de website naar de voorkeuren van de gebruiker. De kleuren worden aangepast op light/dark mode en het vuurwerk blijft in de eindpositie stil staan als de gebruiker reduced motion aan heeft staan. Tenslotte heb ik alle code opnieuw doorgenopmen en opgeschoond waar dat mogelijk was. [Het vuurwerk](https://codepen.io/lisannevanvliet/pen/ExbMQgg) is nu in principe af.
 
 **Wat ging er soepel en wat was lastig?**  
-Wat er soepel ging was het luisteren naar de voorkeuren van de gebruiker (light/dark mode en reduced motion). Het implementeren van de light mode bleek ook makkelijker dan vooraf gedacht. Wat er lastig was, was het omzetten van het koppel naar een checkbox, omdat ik het eerst probeerde een ID te gebruiken. Dit lukte niet, omdat ik dan een laag omhoog zou moeten om het vuurwerk aan te passen, en dit kan alleen nog in Safari Technology Preview. Ik wilde graag dat mijn vuurwerk op alle browsers correct eruit ziet, dus dan vervalt deze optie. Er zat niets anders op dan toch een ID te gebruiken, zodat het label onder de checkbox kon staan (in tegenstelling tot eromheen). Aan Vasilis heb ik gevraagd of dit oké was, en hij vond het prima, omdat er geen andere mogelijkheid is.
+Wat er soepel ging was het luisteren naar de voorkeuren van de gebruiker (light/dark mode en reduced motion). Het implementeren van de light mode bleek ook makkelijker dan vooraf gedacht. Wat er lastig was, was het omzetten van het koppel naar een checkbox, omdat ik het eerst probeerde een ID te gebruiken. Dit lukte niet, omdat ik dan een laag omhoog zou moeten om het vuurwerk aan te passen, en dit kan alleen nog in Safari Technology Preview. Ik wilde graag dat mijn vuurwerk op alle browsers correct eruit ziet, dus dan vervalt deze optie. Er zat niets anders op dan toch een ID te gebruiken, zodat het label onder de checkbox kon staan (in tegenstelling tot eromheen). Aan Vasilis heb ik gevraagd of dit oké was, en hij vond het prima, omdat er geen andere mogelijkheid is. Verder was het ervoor zorgen dat het vuurwerk eindeloos af blijft spelen een uitdaging. De animation-delay werkt enkel de eerste keer, de tweede keer speelt alles dus tegelijkertijd af. Na een tijd kwam ik erachter dat dit komt doordat er geen delay is na de animatie. Na wat zoeken op internet kwam ik erachter dat ik dit handmatig toe kan voegen aan de animaties door middel van keyframes. Er staat dus een animation-delay voor de animatie...
 
 **Welke experimenten heb je gedaan die die ‘mislukt’ zijn?**  
-...
+Tijdens een voortgangsgesprek met Vasilis stelde hij voor om meerdere soorten vuurwerk te maken, of om hetzelfde vuurwerk op meerdere posities af te laten spelen. Het eerste zou mij te veel tijd kosten, maar met het tweede heb ik geëxperimenteerd.
 
 **Heb je nieuwe inzichten hoe je de kracht CSS kunt benutten (of juist niet)?**  
-...
+Ik heb zeker nieuwe inzichten in hoe ik de kracht van CSS kan benutten. Zo wist ik niet hoe er in de CSS naar gebruikersvoorkeuren als light/dark mode en reduced motion kunnen worden geluisterd. Dit blijkt veel makkelijker dan gedacht en zal ik in de toekomst nog vaak gebruiken.
 
 **Neem wijzigingen aan je 1e plan op.**  
-...
+In eerste instantie had ik helemaal niet stil gestaan bij gebruikersvoorkeuren als light/dark mode en reduced motion. Sinds wij hier uitleg over hebben gehad, wilde ik dit graag in de vuurwerkshow inplementeren.
 
 **Waar liggen je (nieuwe) uitdagingen voor komende week?**  
 ...
