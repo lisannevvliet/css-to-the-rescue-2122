@@ -10,11 +10,11 @@ input:checked ~ span section {
 }
 
 @keyframes rotate {
-  63% { transform: rotate(360deg); }
+  64% { transform: rotate(360deg); }
 }
 
 @keyframes rotate-checked {
-  63% { transform: rotate(360deg); }
+  64% { transform: rotate(360deg); }
 }
 
 @media(prefers-reduced-motion) {
