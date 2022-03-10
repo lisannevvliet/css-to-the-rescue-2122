@@ -11,6 +11,12 @@ span span {
     animation-iteration-count: infinite;
 }
 
+input:checked ~ span span:before {
+    content: "\2665";
+    color: transparent;
+    animation: red-explosion 2.5s 1s infinite;
+}
+
 @keyframes big-explosion-1 {
     0% { background: #f6d661; }
     20% { background: #f6d661; transform: translate(100px, -100px); }
@@ -36,32 +42,39 @@ span span {
 }
 
 @keyframes big-red-explosion-1 {
-    0% { background: red; }
-    20% { background: red; transform: translate(100px, -100px); }
-    21%, 100% { background: transparent; transform: translate(100px, -100px); }
+    20% { transform: translate(100px, -100px); }
+    21%, 100% { transform: translate(100px, -100px); }
 }
 
 @keyframes big-red-explosion-2 {
-    0% { background: red; }
-    20% { background: red; transform: translate(100px, 100px); }
-    21%, 100% { background: transparent; transform: translate(100px, 100px); }
+    20% { transform: translate(100px, 100px); }
+    21%, 100% { transform: translate(100px, 100px); }
 }
 
 @keyframes big-red-explosion-3 {
-    0% { background: red; }
-    20% { background: red; transform: translate(-100px, 100px); }
-    21%, 100% { background: transparent; transform: translate(-100px, 100px); }
+    20% { transform: translate(-100px, 100px); }
+    21%, 100% { transform: translate(-100px, 100px); }
 }
 
 @keyframes big-red-explosion-4 {
-    0% {  background: red; }
-    20% { background: red; transform: translate(-100px, -100px); }
-    21%, 100% { background: transparent; transform: translate(-100px, -100px); }
+    20% { transform: translate(-100px, -100px); }
+    21%, 100% { transform: translate(-100px, -100px); }
+}
+
+@keyframes red-explosion {
+    20% { color: red; }
+    21%, 100% { color: transparent; }
 }
 
 span span span {
     position: absolute;
     animation-delay: 1.5s;
+}
+
+input:checked ~ span span span:before {
+    content: "\2665";
+    color: transparent;
+    animation: red-explosion 2.5s 1.5s infinite;
 }
 
 @keyframes smaller-explosion-1 {
@@ -89,31 +102,33 @@ span span span {
 }
 
 @keyframes smaller-red-explosion-1 {
-    0% { background: red; }
-    20% { background: red; transform: translate(50px, -50px); }
-    21%, 100% { background: transparent; transform: translate(50px, -50px); }
+    20% { transform: translate(50px, -50px); }
+    21%, 100% { transform: translate(50px, -50px); }
 }
 
 @keyframes smaller-red-explosion-2 {
-    0% { background: red; }
-    20% { background: red; transform: translate(50px, 50px); }
-    21%, 100% { background: transparent; transform: translate(50px, 50px); }
+    20% { transform: translate(50px, 50px); }
+    21%, 100% { transform: translate(50px, 50px); }
 }
 
 @keyframes smaller-red-explosion-3 {
-    0% { background: red; }
-    20% { background: red; transform: translate(-50px, 50px); }
-    21%, 100% { background: transparent; transform: translate(-50px, 50px); }
+    20% { transform: translate(-50px, 50px); }
+    21%, 100% { transform: translate(-50px, 50px); }
 }
 
 @keyframes smaller-red-explosion-4 {
-    0% { background: red; }
-    20% { background: red; transform: translate(-50px, -50px); }
-    21%, 100% { background: transparent; transform: translate(-50px, -50px); }
+    20% { transform: translate(-50px, -50px); }
+    21%, 100% { transform: translate(-50px, -50px); }
 }
 
 span span span span {
     animation-delay: 2s;
+}
+
+input:checked ~ span span span span:before {
+    content: "\2665";
+    color: transparent;
+    animation: red-explosion 2.5s 2s infinite;
 }
 
 @keyframes smallest-explosion-1 {
@@ -141,27 +156,23 @@ span span span span {
 }
 
 @keyframes smallest-red-explosion-1 {
-    0% { background: red; }
-    20% { background: red; transform: translate(25px, -25px); }
-    21%, 100% { background: transparent; transform: translate(25px, -25px); }
+    20% { transform: translate(25px, -25px); }
+    21%, 100% { transform: translate(25px, -25px); }
 }
 
 @keyframes smallest-red-explosion-2 {
-    0% { background: red; }
-    20% { background: red; transform: translate(25px, 25px); }
-    21%, 100% { background: transparent; transform: translate(25px, 25px); }
+    20% { transform: translate(25px, 25px); }
+    21%, 100% { transform: translate(25px, 25px); }
 }
 
 @keyframes smallest-red-explosion-3 {
-    0% { background: red; }
-    20% { background: red; transform: translate(-25px, 25px); }
-    21%, 100% { background: transparent; transform: translate(-25px, 25px); }
+    20% { transform: translate(-25px, 25px); }
+    21%, 100% { transform: translate(-25px, 25px); }
 }
 
 @keyframes smallest-red-explosion-4 {
-    0% { background: red; }
-    20% { background: red; transform: translate(-25px, -25px); }
-    21%, 100% { background: transparent; transform: translate(-25px, -25px); }
+    20% { transform: translate(-25px, -25px); }
+    21%, 100% { transform: translate(-25px, -25px); }
 }
 
 @media(prefers-reduced-motion:no-preference) {

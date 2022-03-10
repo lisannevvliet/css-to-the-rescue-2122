@@ -15,6 +15,12 @@ input:checked ~ span {
     animation-name: red-rocket;
 }
 
+input:checked ~ span:before {
+    content: "\2665";
+    color: transparent;
+    animation: heart-rocket 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite;
+}
+
 @keyframes dark-rocket {
     40% { background: white; top: 30%; }
     41%, 100% { background: transparent; top: 30%; }
@@ -26,8 +32,13 @@ input:checked ~ span {
 }
 
 @keyframes red-rocket {
-    40% { background: red; top: 30%; }
-    41%, 100% { background: transparent; top: 30%; }
+    40% { top: 30%; }
+    41%, 100% { top: 30%; }
+}
+
+@keyframes heart-rocket {
+    40% { color: red; }
+    41%, 100% { color: transparent; }
 }
 
 @media (prefers-color-scheme: light) {
