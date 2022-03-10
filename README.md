@@ -84,16 +84,16 @@ Omdat ik tijdens de voorjaarsvakantie heb doorgewerkt aan CSS to the Rescue, heb
 
 ### Week 4
 **Bespreek je eindresultaat (“praatje met plaatjes”).**  
-...
+Zie [week 3](#week-3).
 
 **Wat ging er soepel, wat was lastig en waar ben je trots op?**  
-...
+Zie [week 3](#week-3).
 
 **Welke experimenten heb je gedaan die die ‘mislukt’ zijn?**  
-...
+Zie [week 3](#week-3).
 
 **Heb je nieuwe inzichten hoe je de kracht CSS kunt benutten (of juist niet)?**  
-...
+Zie [week 3](#week-3).
 
 **Waar wil je meer mee gaan doen?**  
 ...
