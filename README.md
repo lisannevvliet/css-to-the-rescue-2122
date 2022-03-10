@@ -2,6 +2,13 @@
 
 ## Reflectie
 
+### Inhoudsopgave
+- [Week 1](#week-1)
+- [Week 2](#week-2)
+- [Voorjaarsvakantie](#voorjaarsvakantie)
+- [Week 3](#week-3)
+- [Week 4](#week-4)
+
 ### Week 1
 **Welke opdracht ga je doen en voor welke opties kies je qua uitwerking?**  
 De opdracht die ik ga doen is "Magische vuurwerkshow". Qua opties valt er niet veel te kiezen, behalve dat ik geen 3D-vuurwerkshow zal maken. Dit omdat ik nog nooit heb geanimeerd met CSS, dus in 3D animeren lijkt mij nu, in verband met de tijdsdruk, geen goed idee.
@@ -37,7 +44,7 @@ In eerste instantie wilde ik normaal vuurwerk maken, maar nu heb ik het plan ver
 **Waar liggen je (nieuwe) uitdagingen voor komende week?**  
 (Nieuwe) uitdagingen voor de komende week zullen zijn: het responsive maken van de explosie, zodat het een vierkant blijft als het scherm smaller wordt, en het  toevoegen van subexplosies zonder boilerplate code te schrijven.
 
-### Week 2½
+### Voorjaarsvakantie
 **Laat je voortgang zien (“praatje met plaatjes”).**  
 In de voorjaarsvakantie heb ik veel van mijn tijd aan CSS to the Rescue besteed. Ik was niet trots op wat ik tot dan toe had, dus besloot ik om verschillende soort vuurwerk uit te proberen en de beste verder uit te werken. Na nog wat gerommeld te hebben met [het vuurwerk dat gebaseerd was op een voorbeeld](https://codepen.io/lisannevanvliet/pen/jOaJYYv), heb ik dit idee maar links laten liggen. Voordat ik mij volledig stortte op het vuurwerk met de stipjes, dat ik helemaal zelf gemaakt had, besloot ik nog één nieuw vuurwerk uit te proberen. Hiervoor had ik middels een offset-path [een spiraalvormig vuurwerk](https://codepen.io/lisannevanvliet/pen/WNXmdyK) gecreëerd (werkt alleen niet in Safari).  Toen ik de positionering hiervan niet kreeg zoals ik het wilde, besloot ik om [het zelfgemaakte vuurwerk met de stipjes](https://codepen.io/lisannevanvliet/pen/wvPOprp) verder uit te werken. Hier heb ik allemaal subexplosies, kleuren, een maan, een verliefd koppel en een bonzend hartje boven het koppel aan toegevoegd. Het hartje boven het koppel verschijnt pas als hierop geklikt wordt. Het koppel is namelijk een checkbox. Daarnaast kreeg ik de tip van mijn familie dat het leuk zou zijn als het vuurwerk uiteindelijk ronddraait. Dit heb ik geïmplementeerd.
 
@@ -90,6 +97,3 @@ Omdat ik tijdens de voorjaarsvakantie heb doorgewerkt aan CSS to the Rescue, heb
 
 **Waar wil je meer mee gaan doen?**  
 ...
-
-## Bronnen
-- [Opdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2122/index.html)
