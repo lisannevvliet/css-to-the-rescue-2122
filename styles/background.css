@@ -87,8 +87,8 @@ section:nth-child(2) section:nth-child(7) {
 
 /* Hands on waists */
 section:nth-child(2) section:nth-child(8) {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background: grey;
     position: fixed;
@@ -97,12 +97,12 @@ section:nth-child(2) section:nth-child(8) {
 }
 
 section:nth-child(2) section:nth-child(9) {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background: grey;
     position: fixed;
-    left: calc(50% - 0.5em + 35px);
+    left: calc(50% - 0.5em + 40px);
     bottom: 25px;
 }
 
