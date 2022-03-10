@@ -8,6 +8,7 @@
 - [Voorjaarsvakantie](#voorjaarsvakantie)
 - [Week 3](#week-3)
 - [Week 4](#week-4)
+- [CodePens](#codepens)
 
 ### Week 1
 **Welke opdracht ga je doen en voor welke opties kies je qua uitwerking?**  
@@ -84,16 +85,19 @@ Omdat ik tijdens de voorjaarsvakantie heb doorgewerkt aan CSS to the Rescue, heb
 
 ### Week 4
 **Bespreek je eindresultaat (“praatje met plaatjes”).**  
-Zie [week 3](#week-3).
+[Het eindresultaat](https://codepen.io/lisannevanvliet/pen/GROVdpz) heb ik al vrijwel helemaal besproken in [week 3](#week-3). Het enige wat ik sindsdien nog heb aangepast, is dat het rode vuurwerk nu de vorm van hartjes heeft en de armen iets dunnner zijn gemaakt (na hierover feedback te hebben ontvangen).
 
 **Wat ging er soepel, wat was lastig en waar ben je trots op?**  
-Zie [week 3](#week-3).
+Waar ik veel tijd aan kwijt was, was het omzetten van het vuurwerk met stipjes naar hartjes. Het was voornamelijk experimenten met :before, kijken hoe ik dit in een animatie kon verwerken, en hoe ik dit op de meest compacte manier aan de code kon toevoegen.
 
 **Welke experimenten heb je gedaan die die ‘mislukt’ zijn?**  
-Zie [week 3](#week-3).
+Een experiment dat mislukt was, was het proberen om de hartjes altijd recht te laten staan, terwijl het grotere geheel draait. Ik heb dit even geprobeerd en hierover nagedacht, maar ik zou niet weten hoe ik dit kan implementeren in de code die ik heb (met alle ingewikkelde animation-delays en keyframes).
 
 **Heb je nieuwe inzichten hoe je de kracht CSS kunt benutten (of juist niet)?**  
-Zie [week 3](#week-3).
+Ik heb niet per se in de afgelopen week nieuwe inzichten opgedaan, maar wel gedurende dit vak. Ik heb geleerd dat er heel veel geanimeerd kan worden met CSS, dat ID's en classes niet altijd nodig zijn, dat een eindeloze loop met meerdere animaties mogelijk is, en dat er met één regel CSS geluisterd kan worden naar gebruikersvoorkeuren. Naast de lessen heb ik een aantal themasessies bijgewoond, waar ik veel nieuwe kennis heb mogen opdoen.
 
 **Waar wil je meer mee gaan doen?**  
-...
+Waar ik meer mee wil gaan doen zijn animaties. Hier had ik voorheen nooit mee gewerkt maar het is een simpele manier om een website er aantrekkelijker uit te laten zien. Ook merk ik nu al dat ik geen ID's en classes meer gebruik als ze niet nodig zijn (ook aangeroepen kunnen worden met een selector), iets wat ik voorheen nog wel deed. Tenslotte zou ik graag websites willen bouwen die rekening houden met light/dark mode en toegankelijkheid, door o.a. @media queries en aria-labels toe te passen.
+
+### CodePens
+Alle CodePens zijn te vinden op [https://codepen.io/collection/mrOjQk](https://codepen.io/collection/mrOjQk).
