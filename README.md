@@ -1,14 +1,15 @@
 # Fireworks
 
-## Reflectie
-
-### Inhoudsopgave
-- [Week 1](#week-1)
-- [Week 2](#week-2)
-- [Voorjaarsvakantie](#voorjaarsvakantie)
-- [Week 3](#week-3)
-- [Week 4](#week-4)
+## Inhoudsopgave
+- [Reflectie](#reflectie)
+  * [Week 1](#week-1)
+  * [Week 2](#week-2)
+  * [Voorjaarsvakantie](#voorjaarsvakantie)
+  * [Week 3](#week-3)
+  * [Week 4](#week-4)
 - [CodePens](#codepens)
+
+## Reflectie
 
 ### Week 1
 **Welke opdracht ga je doen en voor welke opties kies je qua uitwerking?**  
@@ -99,5 +100,5 @@ Ik heb niet per se in de afgelopen week nieuwe inzichten opgedaan, maar wel gedu
 **Waar wil je meer mee gaan doen?**  
 Waar ik meer mee wil gaan doen zijn animaties. Hier had ik voorheen nooit mee gewerkt maar het is een simpele manier om een website er aantrekkelijker uit te laten zien. Ook merk ik nu al dat ik geen ID's en classes meer gebruik als ze niet nodig zijn (ook aangeroepen kunnen worden met een selector), iets wat ik voorheen nog wel deed. Tenslotte zou ik graag websites willen bouwen die rekening houden met light/dark mode en toegankelijkheid, door o.a. @media queries en aria-labels toe te passen.
 
-### CodePens
+## CodePens
 Alle CodePens zijn te vinden op [https://codepen.io/collection/mrOjQk](https://codepen.io/collection/mrOjQk).
