@@ -106,7 +106,7 @@ section:nth-child(2) section:nth-child(9) {
     bottom: 25px;
 }
 
-/* Arms on waist */
+/* Arms on waists */
 section:nth-child(2) section:nth-child(10) {
     width: 30px;
     height: 1px;
@@ -167,27 +167,33 @@ section:nth-child(3) section:nth-child(3) path {
 }
 
 @media (prefers-color-scheme: light) {
+    /* Arms on waists */
     body, section:nth-child(2) section:nth-child(10), section:nth-child(2) section:nth-child(11) {
         background: white;
     }
 
+    /* Sun */
     body > section > section:nth-child(1) {
         background: yellow;
         box-shadow: none;
     }
 
+    /* People */
     section section:nth-child(2) section:nth-child(1), section section:nth-child(2) section:nth-child(2), section section:nth-child(2) section:nth-child(3), section section:nth-child(2) section:nth-child(4), section section:nth-child(2) section:nth-child(5), section section:nth-child(2) section:nth-child(6), section section:nth-child(2) section:nth-child(7), section section:nth-child(2) section:nth-child(8), section section:nth-child(2) section:nth-child(9) {
         background: #404040;
     }
 
+    /* Beach */
     section:nth-child(3) section:nth-child(1) {
         background: tan;
     }
 
+    /* Sea */
     section:nth-child(3) section:nth-child(2) {
         background: skyblue;
     }
     
+    /* Waves */
     section:nth-child(3) section:nth-child(3) path {
         fill: skyblue;
     }
